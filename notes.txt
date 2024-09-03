@@ -1,0 +1,183 @@
+https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80
+
+
+Database:
+A.Contact Us
+a)Normal visitors can contact with a form.
+b) Admin can see all contact details and can send reply and see all previous communications.
+
+B.Advertisement 
+a)User can contact for advertisements
+b)Admin verify and upload advertisement and show in home page.
+
+C.Leaflet ( books)
+a)Admin can upload leaflets for different locations( Kalimpong, etc.)
+b)At Frontend, show the details.
+D.Feedback 
+a)User can send feedback using feedback form from user portal.
+b)Admin can see all feedbacks and verify
+c)Verified and active feedback show in front home page
+E.Guide
+a)User can register as a guide. 
+b)Admin verify guides and guide list according to city or state shown in guide list.
+F.Homestay
+a)Admin add homestay and show list according to city and state
+b)Show in frontend page.
+G.Place (item)
+a)Admin can add places and show list acording to city and state.
+b)Show in frontend page
+H.Map_destination
+a)Place with routes like by_road, by_train, by_flight and a short video about the destination can be added by admin
+b)Show in details of places with these details.
+I.Marketing_agent
+a)Some similar agents that provides touring services
+b)User can register their as a marketing agent.
+c)Admin can verify 
+d)Show in frontend under agents category.
+J.District ( master ) [ not needed ]
+a)Admin can add districts, sub division, block, GP, municipality, ward, consulate, template, none  
+K.Media [ no needed]
+a)Image files are there.
+L.News letter 
+a)User/Visitor can subscribe to news letter
+b)Admin create news letter
+c)Admin can send news letter
+M.Notice
+a)Admin can create notice and see all notice
+b)Notices are shown in frontend
+N.Patha_sathi
+a)Admin can add all patha sathi 
+b)Frontend can see all
+O.Plan
+a)Admin can add plan details like place name, no of days, guide, transport, service, dates, etc.
+b)Plan show in frontend
+P.Policies
+a)Admin can add policies and see all.
+b)Frontend page show all policies
+Q.Tour_operator
+a)Admin can add tour operators
+b)Show in frontend page
+R.Tourist_package
+a)Admin can add tourist packages like dates, prices, tour_operator, image, 
+b)See in frontend
+S.User
+a)User data stored here
+T.Property
+a)Admin can add property based on name, district_code, etc
+
+
+
+From Frontend Page:
+top-navhead-area
+=> TollFree No,  Search
+
+middle-header-area
+=> brand logo, company logo in written, wblogo
+
+collapse nabvar-collapse
+=> nav-items,  
+
+video
+=> play a video for overall all tourist spots
+
+top tourist places
+=> sliders of top places
+
+top destinations
+=> cards of top destination
+
+festivals and events in bengal
+=> card sliders
+
+gallery
+=> for touring places gallery
+
+footer
+=> Booking office
+=> About = sitemap, feedback
+=> Quick Links = online booking, contact us
+
+
+
+
+
+Navbar: Home, Pages( About us, Our Team, Contact, FAQ, Coming Soon, 404) , Destinations , Tours ( Tour Single, Tour Lists , Dashboard ), Blog ( Standard List, Masonry list, single ), Shop ( list, my account, checkout, cart ) , Elements ( Featured, Classic, Infographic, typography), cart, serach, side menu hamburger 
+
+video background:
+search with >
+Where TO:
+ input with suggestions and matched item placed
+
+
+When:
+ Jan
+ Feb
+ Mar
+ Apr
+ ..
+
+
+Travel Type:
+ Adventur
+ Cultural
+ Discovery
+ Historical
+ Seaside
+ Self-Guided
+ Wildlife
+
+carousel of cards
+forest, china, safari, canada, pyramids, etc.
+
+Reviews 
+col-6 image
+col-6 reviews 3 sliders
+
+top places
+africa, thailand, china, india
+
+adventure
+col-6 written block
+col-6 image
+
+
+last minute offers
+card of images with destination and price 
+
+choose tour
+self-guided, crusises, adventure, wildlife, seaside
+
+
+Join Newsletter
+
+footer
+address   latest posts  links
+
+
+
+Backend Setup:
+
+tourist-app-backend/
+├── config/
+│   └── db.js
+├── models/
+│   └── User.js
+├── routes/
+│   └── userRoutes.js
+├── controllers/
+│   └── userController.js
+├── middleware/
+│   └── authMiddleware.js
+├── .env
+├── server.js
+└── package.json
+
+Frontned design
+src/
+├── components/
+│   ├── Dashboard.js
+│   └── Navbar.js
+├── pages/
+│   └── Home.js
+├── App.js
+└── index.js

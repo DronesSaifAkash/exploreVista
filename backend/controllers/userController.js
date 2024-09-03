@@ -76,6 +76,20 @@ class UserController {
     testing(req, res) {
         res.status(200).json({ message: "Server is running" });
     }
+
+    profile(req, res) {
+        const userProfile = {
+            name: "Jenna Stones",
+            location: "Los Angeles, California",
+            profession: "Solution Manager - Creative Tim Officer",
+            education: "University of Computer Science",
+            friendsCount: 22,
+            photosCount: 10,
+            commentsCount: 89,
+            bio: " An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.",
+          };
+        res.json(userProfile);
+    }
 }
 
 module.exports = new UserController();

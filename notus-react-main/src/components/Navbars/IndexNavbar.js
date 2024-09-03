@@ -103,7 +103,8 @@ import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
-  const isAuthenticated = false; // Change this to your authentication logic
+  // const isAuthenticated = false; // Change this to your authentication logic
+  const isAuthenticated = localStorage.getItem("token") !== null;
 
   return (
     <>
@@ -162,7 +163,7 @@ export default function Navbar(props) {
                 <>
                   <li className="flex items-center">
                     <Link
-                      to="/dashboard"
+                      to="/admin/dashboard"
                       className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                     >
                       Dashboard
@@ -172,7 +173,10 @@ export default function Navbar(props) {
                     <button
                       className="bg-red-500 text-white active:bg-red-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                       type="button"
-                      onClick={() => {/* Add logout logic here */}}
+                      onClick={() => {
+                        localStorage.removeItem("token");
+                        window.location.href = "/auth/login"; // Redirect to login page after logout
+                      }}
                     >
                       Logout
                     </button>
@@ -182,7 +186,7 @@ export default function Navbar(props) {
                 <>
                   <li className="flex items-center">
                     <Link
-                      to="/register"
+                      to="/auth/register"
                       className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                     >
                       Register
@@ -190,7 +194,7 @@ export default function Navbar(props) {
                   </li>
                   <li className="flex items-center">
                     <Link
-                      to="/login"
+                      to="/auth/login"
                       className="bg-lightBlue-500 text-white active:bg-lightBlue-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                     >
                       Login
