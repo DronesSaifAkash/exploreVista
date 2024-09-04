@@ -14,5 +14,10 @@ router.post('/login', UserController.loginUser);
 router.get('/testing', UserController.testing);
 router.get('/profile', UserController.profile);
 
+const DC = require('../controllers/districtController');
+
+router.get('/districts', DC.listDistricts);
+
+
 
 module.exports = router;

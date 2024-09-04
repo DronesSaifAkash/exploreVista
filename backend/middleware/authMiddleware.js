@@ -1,23 +1,25 @@
 const jwt = require('jsonwebtoken');
-const User = require('../models/user');
 
-const protect = async (req, res, next) => {
-    let token;
-
-    if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
-        try {
-            token = req.headers.authorization.split(' ')[1];
-            const decoded = jwt.verify(token, process.env.JWT_SECRET);
-            req.user = await User.findById(decoded.id).select('-password');
-            next();
-        } catch (error) {
-            res.status(401).json({ message: 'Not authorized, token failed' });
-        }
+const verifyToken = (req, res, next) => {
+    // Extract token from Authorization header
+    const authHeader = req.headers['authorization'];
+    if (!authHeader) {
+        return res.status(403).json({ message: 'No token provided' });
     }
+    // The token should be in the format "Bearer <token>"
+    const token = authHeader.split(' ')[1]; // Split by space and get the token part
 
     if (!token) {
-        res.status(401).json({ message: 'Not authorized, no token' });
+        return res.status(403).json({ message: 'No token provided' });
     }
+
+    jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
+        if (err) {
+            return res.status(500).json({ message: 'Failed to authenticate token', err: err });
+        }
+        req.userId = decoded.id;
+        next();
+    });
 };
 
-module.exports = protect;
+module.exports = {verifyToken};

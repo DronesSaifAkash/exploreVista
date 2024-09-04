@@ -1,5 +1,26 @@
+
+-------------3-9-24-----------
+a> database a collection create 
+b> admin crud operation implementation add
+
+
 https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80
 
+{_id: "66d695f7788a59153629281e", name: "sk3", email: "sk3@yopmail.com",…}
+email
+: 
+"sk3@yopmail.com"
+name
+: 
+"sk3"
+token
+: 
+"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZDY5NWY3Nzg4YTU5MTUzNjI5MjgxZSIsImlhdCI6MTcyNTMzOTEyNywiZXhwIjoxNzI3OTMxMTI3fQ.le458zSL_AsGvKuNNgYgA22Dpb_nmiOrn3jqKJaXAMM"
+_id
+: 
+"66d695f7788a59153629281e"
+
+-----------2-9-24---------------------------
 
 Database:
 A.Contact Us
