@@ -13,23 +13,10 @@ import Auth from "layouts/Auth.js";
 import Landing from "views/Landing.js";
 import Profile from "views/Profile.js";
 import Index from "views/Index.js";
+import DistrictList from 'views/DistrictList';
+import DestinationList from "views/DestinationList";
+import PopularPlaces from 'views/PopularPlaces';
 
-// ReactDOM.render(
-//   <BrowserRouter>
-//     <Switch>
-//       {/* add routes with layouts */}
-//       <Route path="/admin" component={Admin} />
-//       <Route path="/auth" component={Auth} />
-//       {/* add routes without layouts */}
-//       <Route path="/landing" exact component={Landing} />
-//       <Route path="/profile" exact component={Profile} />
-//       <Route path="/" exact component={Index} />
-//       {/* add redirect for first page */}
-//       <Redirect from="*" to="/" />
-//     </Switch>
-//   </BrowserRouter>,
-//   document.getElementById("root")
-// );
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
 
@@ -40,6 +27,9 @@ root.render(
       <Route path="/admin" component={Admin} />
       <Route path="/auth" component={Auth} />
       {/* Add routes without layouts */}
+      <Route path="/districts" exact component={DistrictList} />
+      <Route path="/PopularPlaces" exact component={PopularPlaces} />
+      <Route path="/destinations" exact component={DestinationList} />
       <Route path="/landing" exact component={Landing} />
       <Route path="/profile" exact component={Profile} />
       <Route path="/" exact component={Index} />

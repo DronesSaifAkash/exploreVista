@@ -1,0 +1,4617 @@
+[{
+  "_id": {
+    "$oid": "638f831f9e20437bfb0ce12a"
+  },
+  "parent_destination": [
+    "638edb4b8c2638cfa704ad57",
+    "63d6c654ec7aa076f30b35d0",
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Kalimpong",
+  "short_desc": "",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "638f831f9e20437bfb0ce128"
+  },
+  "full_image_obj_id": {
+    "$oid": "638f831f9e20437bfb0ce129"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T10:13:07.000Z"
+  },
+  "created_at": {
+    "$date": "2022-12-06T17:59:59.000Z"
+  },
+  "district_code": "702",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "638f848d9e20437bfb0ce12d"
+  },
+  "parent_destination": [
+    "638edb4b8c2638cfa704ad57"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Kurseong",
+  "short_desc": "",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "638f848d9e20437bfb0ce12b"
+  },
+  "full_image_obj_id": {
+    "$oid": "638f848d9e20437bfb0ce12c"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:49:58.000Z"
+  },
+  "created_at": {
+    "$date": "2022-12-06T18:06:05.000Z"
+  },
+  "district_code": "309",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "638f84f99e20437bfb0ce130"
+  },
+  "parent_destination": [
+    "638edb4b8c2638cfa704ad57"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Rishop",
+  "short_desc": "",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "638f84f99e20437bfb0ce12e"
+  },
+  "full_image_obj_id": {
+    "$oid": "638f84f99e20437bfb0ce12f"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:01:30.000Z"
+  },
+  "created_at": {
+    "$date": "2022-12-06T18:07:53.000Z"
+  },
+  "district_code": "702",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "638f85769e20437bfb0ce133"
+  },
+  "parent_destination": [
+    "638edb4b8c2638cfa704ad57"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Lava",
+  "short_desc": "",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "638f85769e20437bfb0ce131"
+  },
+  "full_image_obj_id": {
+    "$oid": "638f85769e20437bfb0ce132"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:50:31.000Z"
+  },
+  "created_at": {
+    "$date": "2022-12-06T18:09:58.000Z"
+  },
+  "district_code": "702",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "638f859c9e20437bfb0ce136"
+  },
+  "parent_destination": [
+    "638edb4b8c2638cfa704ad57"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Lolegaon",
+  "short_desc": "",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "638f859c9e20437bfb0ce134"
+  },
+  "full_image_obj_id": {
+    "$oid": "638f859c9e20437bfb0ce135"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:29:46.000Z"
+  },
+  "created_at": {
+    "$date": "2022-12-06T18:10:36.000Z"
+  },
+  "district_code": "702",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "638f8fe69e20437bfb0ce13d"
+  },
+  "parent_destination": {
+    "$oid": "638edd438c2638cfa704ad60"
+  },
+  "type": "place",
+  "page_type": "detail",
+  "name": "SUTANUTI TRAILS",
+  "short_desc": "SUTANUTI TRAILS, Kolkata",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 0,
+  "thumbnail_image_obj_id": {
+    "$oid": "638f8fe69e20437bfb0ce13b"
+  },
+  "full_image_obj_id": {
+    "$oid": "638f8fe69e20437bfb0ce13c"
+  },
+  "updated_at": {
+    "$date": "2023-02-01T10:32:44.000Z"
+  },
+  "created_at": {
+    "$date": "2022-12-06T18:54:30.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "638f90b09e20437bfb0ce140"
+  },
+  "parent_destination": [
+    "62fded584f32074b6d01ed76",
+    "638eddb28c2638cfa704ad63",
+    "63d6c654ec7aa076f30b35d0",
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Sundarbans",
+  "short_desc": "Sundarban, South 24 Parganas",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "638f90af9e20437bfb0ce13e"
+  },
+  "full_image_obj_id": {
+    "$oid": "638f90b09e20437bfb0ce13f"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T11:37:41.000Z"
+  },
+  "created_at": {
+    "$date": "2022-12-06T18:57:52.000Z"
+  },
+  "district_code": "304",
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "638f91289e20437bfb0ce143"
+  },
+  "parent_destination": [
+    "638edc998c2638cfa704ad5d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Digha",
+  "short_desc": "Digha, West Bengal",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "638f91289e20437bfb0ce141"
+  },
+  "full_image_obj_id": {
+    "$oid": "638f91289e20437bfb0ce142"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T10:53:35.000Z"
+  },
+  "created_at": {
+    "$date": "2022-12-06T18:59:52.000Z"
+  },
+  "district_code": "317",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "638f91549e20437bfb0ce146"
+  },
+  "parent_destination": [
+    "638edc998c2638cfa704ad5d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Mandarmani",
+  "short_desc": "Mandarmani, West Bengal",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "638f91549e20437bfb0ce144"
+  },
+  "full_image_obj_id": {
+    "$oid": "638f91549e20437bfb0ce145"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:12:16.000Z"
+  },
+  "created_at": {
+    "$date": "2022-12-06T19:00:36.000Z"
+  },
+  "district_code": "317",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d54ce734d3802cfd04682b"
+  },
+  "parent_destination": [
+    "638edb4b8c2638cfa704ad57",
+    "63d6c654ec7aa076f30b35d0"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Darjeeling",
+  "short_desc": "",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d54ce734d3802cfd046829"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d54ce734d3802cfd04682a"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T06:39:50.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-28T16:27:19.000Z"
+  },
+  "district_code": "309",
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63d6c6eaec7aa076f30b35d3"
+  },
+  "parent_destination": [
+    "63d6c60bec7aa076f30b35cd"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Dooars",
+  "short_desc": "Dooars, West Bengal",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d6c6eaec7aa076f30b35d1"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d6c6eaec7aa076f30b35d2"
+  },
+  "updated_at": {
+    "$date": "2023-05-13T08:17:33.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-29T19:20:10.000Z"
+  },
+  "district_code": "314",
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63d7ed9ce4bbd858c2063384"
+  },
+  "parent_destination": [
+    "638edb4b8c2638cfa704ad57"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Mirik",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d7ed9ce4bbd858c2063382"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d7ed9ce4bbd858c2063383"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T11:16:02.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T16:17:32.000Z"
+  },
+  "district_code": "309",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d7f015e4bbd858c2063387"
+  },
+  "parent_destination": [
+    "638edb4b8c2638cfa704ad57"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Sandakphu",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d7f015e4bbd858c2063385"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d7f015e4bbd858c2063386"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T06:32:41.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T16:28:05.000Z"
+  },
+  "district_code": "309",
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63d7f2afe4bbd858c206338a"
+  },
+  "parent_destination": [
+    "638edc998c2638cfa704ad5d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Tajpur",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d7f2afe4bbd858c2063388"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d7f2afe4bbd858c2063389"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:54:38.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T16:39:11.000Z"
+  },
+  "district_code": "317",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d7f2e0e4bbd858c206338d"
+  },
+  "parent_destination": [
+    "638edc998c2638cfa704ad5d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Shankarpur",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d7f2e0e4bbd858c206338b"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d7f2e0e4bbd858c206338c"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:58:55.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T16:40:00.000Z"
+  },
+  "district_code": "317",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d7f309e4bbd858c2063390"
+  },
+  "parent_destination": [
+    "638edc998c2638cfa704ad5d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Bakkhali",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d7f308e4bbd858c206338e"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d7f309e4bbd858c206338f"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:17:28.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T16:40:41.000Z"
+  },
+  "district_code": "304",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d7f634e4bbd858c2063393"
+  },
+  "parent_destination": [
+    "63d6c148ec7aa076f30b35c1"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Colonial Heritage",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d7f634e4bbd858c2063391"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d7f634e4bbd858c2063392"
+  },
+  "updated_at": {
+    "$date": "2023-03-14T10:30:50.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T16:54:12.000Z"
+  },
+  "district_code": "315",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d7fb36e4bbd858c2063399"
+  },
+  "parent_destination": {
+    "$oid": "638eddb28c2638cfa704ad63"
+  },
+  "type": "place",
+  "page_type": "detail",
+  "name": "Dooars",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d7fb36e4bbd858c2063397"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d7fb36e4bbd858c2063398"
+  },
+  "updated_at": {
+    "$date": "2023-02-04T12:12:33.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T17:15:34.000Z"
+  },
+  "district_code": "314",
+  "reference": {
+    "$oid": "63d6cf33ec7aa076f30b35e5"
+  }
+},
+{
+  "_id": {
+    "$oid": "63d7fbdfe4bbd858c206339c"
+  },
+  "parent_destination": {
+    "$oid": "63d6c148ec7aa076f30b35c1"
+  },
+  "type": "place",
+  "page_type": "detail",
+  "name": "Jaldapara",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 0,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d7fbdfe4bbd858c206339a"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d7fbdfe4bbd858c206339b"
+  },
+  "updated_at": {
+    "$date": "2023-02-04T10:36:57.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T17:18:23.000Z"
+  },
+  "district_code": "664",
+  "is_delete": 1,
+  "remark": "deleted "
+},
+{
+  "_id": {
+    "$oid": "63d7fc45e4bbd858c206339f"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63",
+    "63d6c654ec7aa076f30b35d0",
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Gorumara National Park",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d7fc45e4bbd858c206339d"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d7fc45e4bbd858c206339e"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T06:36:01.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T17:20:05.000Z"
+  },
+  "district_code": "314",
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63d7fc9fe4bbd858c20633a2"
+  },
+  "parent_destination": {
+    "$oid": "63d6c148ec7aa076f30b35c1"
+  },
+  "type": "place",
+  "page_type": "detail",
+  "name": "Sanctuaries",
+  "template_id": 2,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d7fc9fe4bbd858c20633a0"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d7fc9fe4bbd858c20633a1"
+  },
+  "updated_at": {
+    "$date": "2023-01-30T17:21:35.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T17:21:35.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63d7fe7ee4bbd858c20633a5"
+  },
+  "parent_destination": [
+    "63d6c60bec7aa076f30b35cd"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Science City",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d7fe7ee4bbd858c20633a3"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d7fe7ee4bbd858c20633a4"
+  },
+  "updated_at": {
+    "$date": "2023-02-03T10:02:36.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T17:29:34.000Z"
+  },
+  "district_code": "315"
+},
+{
+  "_id": {
+    "$oid": "63d8002ee4bbd858c20633a8"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Victoria Memorial",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8002ee4bbd858c20633a6"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8002ee4bbd858c20633a7"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:54:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T17:36:46.000Z"
+  },
+  "district_code": "315",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d800a0e4bbd858c20633ab"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60",
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Kalighat Temple",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d800a0e4bbd858c20633a9"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d800a0e4bbd858c20633aa"
+  },
+  "updated_at": {
+    "$date": "2023-05-13T09:32:41.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T17:38:40.000Z"
+  },
+  "district_code": "315",
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63d800d5e4bbd858c20633ae"
+  },
+  "parent_destination": [
+    "63d6c60bec7aa076f30b35cd"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Academy Of Fine Arts",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d800d5e4bbd858c20633ac"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d800d5e4bbd858c20633ad"
+  },
+  "updated_at": {
+    "$date": "2024-08-22T12:47:26.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T17:39:33.000Z"
+  },
+  "district_code": "315",
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63d80101e4bbd858c20633b1"
+  },
+  "parent_destination": [
+    "63d6c60bec7aa076f30b35cd"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Chinatown Kolkata",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d80101e4bbd858c20633af"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d80101e4bbd858c20633b0"
+  },
+  "updated_at": {
+    "$date": "2023-02-06T09:54:35.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T17:40:17.000Z"
+  },
+  "district_code": "315"
+},
+{
+  "_id": {
+    "$oid": "63d80140e4bbd858c20633b4"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Zoologial Garden Alipore",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 0,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d80140e4bbd858c20633b2"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d80140e4bbd858c20633b3"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:54:22.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T17:41:20.000Z"
+  },
+  "district_code": "315",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d8018be4bbd858c20633b7"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Armenian Church",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8018be4bbd858c20633b5"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8018be4bbd858c20633b6"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T10:42:48.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T17:42:35.000Z"
+  },
+  "district_code": "315",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d801b8e4bbd858c20633ba"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Kumartuli",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d801b8e4bbd858c20633b8"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d801b8e4bbd858c20633b9"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:49:41.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T17:43:20.000Z"
+  },
+  "district_code": "315",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d8020de4bbd858c20633bd"
+  },
+  "parent_destination": [
+    "63d6c60bec7aa076f30b35cd"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Birla Planetarium",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8020de4bbd858c20633bb"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8020de4bbd858c20633bc"
+  },
+  "updated_at": {
+    "$date": "2023-02-06T10:33:46.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T17:44:45.000Z"
+  },
+  "district_code": "315"
+},
+{
+  "_id": {
+    "$oid": "63d8043fe4bbd858c20633c0"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63",
+    "63d6c654ec7aa076f30b35d0",
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Neora Valley National Park",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8043fe4bbd858c20633be"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8043fe4bbd858c20633bf"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T06:31:03.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T17:54:07.000Z"
+  },
+  "district_code": "702",
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63d80f25e4bbd858c20633c6"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63",
+    "63d6c654ec7aa076f30b35d0"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Singalila National Park",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d80f25e4bbd858c20633c4"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d80f25e4bbd858c20633c5"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T06:31:48.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T18:40:37.000Z"
+  },
+  "district_code": "309",
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63d80f54e4bbd858c20633c9"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63",
+    "63d6c654ec7aa076f30b35d0",
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Jaldapara National Park",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d80f54e4bbd858c20633c7"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d80f54e4bbd858c20633c8"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T06:34:36.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T18:41:24.000Z"
+  },
+  "district_code": "664",
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63d81005e4bbd858c20633d2"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Chapramari Wildlife Sanctuary",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d81005e4bbd858c20633d0"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d81005e4bbd858c20633d1"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T10:14:48.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T18:44:21.000Z"
+  },
+  "district_code": "314",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d81045e4bbd858c20633d5"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63",
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Mahananda Wildlife Sanctuary",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d81044e4bbd858c20633d3"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d81045e4bbd858c20633d4"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T10:15:34.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T18:45:25.000Z"
+  },
+  "district_code": "309",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d810a3e4bbd858c20633d8"
+  },
+  "parent_destination": [
+    "63d6c148ec7aa076f30b35c1"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Himalayan Mountaineering  Institute",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 0,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d810a3e4bbd858c20633d6"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d810a3e4bbd858c20633d7"
+  },
+  "updated_at": {
+    "$date": "2023-03-14T10:05:17.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T18:46:59.000Z"
+  },
+  "district_code": "309",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d810f5e4bbd858c20633db"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Jorpokhri Wildlife Sanctuary",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d810f5e4bbd858c20633d9"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d810f5e4bbd858c20633da"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T10:16:30.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-30T18:48:21.000Z"
+  },
+  "district_code": "309",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d8beb36327ed072c056a20"
+  },
+  "parent_destination": [
+    "62fded584f32074b6d01ed76",
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Kapil Muni Ashram, Gangasagar",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8beb36327ed072c056a1e"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8beb36327ed072c056a1f"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T11:37:54.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T07:09:39.000Z"
+  },
+  "district_code": "304",
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63d8d1e66327ed072c056a23"
+  },
+  "parent_destination": [
+    "62fded584f32074b6d01ed76",
+    "638edd438c2638cfa704ad60",
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Belur Math",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8d1e66327ed072c056a21"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8d1e66327ed072c056a22"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T11:36:34.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T08:31:34.000Z"
+  },
+  "district_code": "313",
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63d8d36b6327ed072c056a26"
+  },
+  "parent_destination": [
+    "62fded584f32074b6d01ed76",
+    "638edd438c2638cfa704ad60",
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Dakshineswar",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8d36b6327ed072c056a24"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8d36b6327ed072c056a25"
+  },
+  "updated_at": {
+    "$date": "2023-03-14T10:09:14.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T08:38:03.000Z"
+  },
+  "district_code": "303",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d8d4236327ed072c056a2c"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Tarapith",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8d4236327ed072c056a2a"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8d4236327ed072c056a2b"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:55:11.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T08:41:07.000Z"
+  },
+  "district_code": "307",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d8d6546327ed072c056a2f"
+  },
+  "parent_destination": [
+    null
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Kalighat",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 0,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8d6546327ed072c056a2d"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8d6546327ed072c056a2e"
+  },
+  "updated_at": {
+    "$date": "2023-03-15T09:52:57.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T08:50:28.000Z"
+  },
+  "district_code": "315",
+  "reference": {
+    "$oid": "63dce16003e155404d07d8b0"
+  },
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63d8d6d86327ed072c056a32"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Tarakeshwar",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8d6d86327ed072c056a30"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8d6d86327ed072c056a31"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:54:53.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T08:52:40.000Z"
+  },
+  "district_code": "312",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d8fac56327ed072c056a35"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "ISKCON Mayapur",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8fac56327ed072c056a33"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8fac56327ed072c056a34"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:44:01.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T11:25:57.000Z"
+  },
+  "district_code": "320",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d8fb206327ed072c056a38"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Nakhoda Masjid",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8fb206327ed072c056a36"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8fb206327ed072c056a37"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T05:51:20.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T11:27:28.000Z"
+  },
+  "district_code": "315",
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63d8fc5e6327ed072c056a3b"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Furfura Sharif",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8fc5e6327ed072c056a39"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8fc5e6327ed072c056a3a"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T10:54:43.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T11:32:46.000Z"
+  },
+  "district_code": "312",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d8fcd86327ed072c056a3e"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Imambara",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8fcd86327ed072c056a3c"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8fcd86327ed072c056a3d"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:45:31.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T11:34:48.000Z"
+  },
+  "district_code": "312",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d8fd3b6327ed072c056a41"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "ST. Paul's Cathedral",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8fd3b6327ed072c056a3f"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8fd3b6327ed072c056a40"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:01:51.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T11:36:27.000Z"
+  },
+  "district_code": "315",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d8feb66327ed072c056a44"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "St. Jame's Church",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8feb56327ed072c056a42"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8feb66327ed072c056a43"
+  },
+  "updated_at": {
+    "$date": "2023-05-15T06:02:39.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T11:42:46.000Z"
+  },
+  "district_code": "315",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d8ff146327ed072c056a47"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Bolla Kali Temple",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8ff146327ed072c056a45"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8ff146327ed072c056a46"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T10:48:03.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T11:44:20.000Z"
+  },
+  "district_code": "310",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d8ff596327ed072c056a4a"
+  },
+  "parent_destination": {
+    "$oid": "63d8be436327ed072c056a1d"
+  },
+  "type": "place",
+  "page_type": "detail",
+  "name": "Shakti Peeth",
+  "template_id": 2,
+  "is_active": 0,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d8ff596327ed072c056a48"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d8ff596327ed072c056a49"
+  },
+  "updated_at": {
+    "$date": "2023-01-31T11:45:29.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T11:45:29.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63d900286327ed072c056a4d"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Jain Pilgrimage",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d900286327ed072c056a4b"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d900286327ed072c056a4c"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:44:46.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T11:48:56.000Z"
+  },
+  "district_code": "319",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63d9008b6327ed072c056a53"
+  },
+  "parent_destination": {
+    "$oid": "63d8be436327ed072c056a1d"
+  },
+  "type": "place",
+  "page_type": "detail",
+  "name": "Buddhist Monasteries",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d9008b6327ed072c056a51"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d9008b6327ed072c056a52"
+  },
+  "updated_at": {
+    "$date": "2023-02-09T12:16:15.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T11:50:35.000Z"
+  },
+  "district_code": "309"
+},
+{
+  "_id": {
+    "$oid": "63d900e46327ed072c056a56"
+  },
+  "parent_destination": {
+    "$oid": "63d8be436327ed072c056a1d"
+  },
+  "type": "place",
+  "page_type": "detail",
+  "name": "ST. Teresa Circuit",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d900e36327ed072c056a54"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d900e46327ed072c056a55"
+  },
+  "updated_at": {
+    "$date": "2023-02-09T09:54:32.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T11:52:04.000Z"
+  },
+  "district_code": "315"
+},
+{
+  "_id": {
+    "$oid": "63d901676327ed072c056a59"
+  },
+  "parent_destination": {
+    "$oid": "63d8be436327ed072c056a1d"
+  },
+  "type": "place",
+  "page_type": "detail",
+  "name": "Synagogue In Kolkata",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63d901666327ed072c056a57"
+  },
+  "full_image_obj_id": {
+    "$oid": "63d901666327ed072c056a58"
+  },
+  "updated_at": {
+    "$date": "2023-02-09T10:20:08.000Z"
+  },
+  "created_at": {
+    "$date": "2023-01-31T11:54:15.000Z"
+  },
+  "district_code": "315"
+},
+{
+  "_id": {
+    "$oid": "63da5372171e967049012c27"
+  },
+  "parent_destination": [
+    "63d6c60bec7aa076f30b35cd"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Santiniketan",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63da5372171e967049012c25"
+  },
+  "full_image_obj_id": {
+    "$oid": "63da5372171e967049012c26"
+  },
+  "updated_at": {
+    "$date": "2023-05-12T10:09:19.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-01T11:56:34.000Z"
+  },
+  "district_code": "307",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63da580b171e967049012c2a"
+  },
+  "parent_destination": [
+    "638edc488c2638cfa704ad5a"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Legends of Bengal",
+  "template_id": 2,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63da580a171e967049012c28"
+  },
+  "full_image_obj_id": {
+    "$oid": "63da580b171e967049012c29"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T11:49:43.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-01T12:16:11.000Z"
+  },
+  "district_code": "315",
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63da5916171e967049012c2d"
+  },
+  "parent_destination": [
+    "638edc488c2638cfa704ad5a",
+    "638ede278c2638cfa704ad69",
+    "63d6c654ec7aa076f30b35d0",
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Purulia",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63da5916171e967049012c2b"
+  },
+  "full_image_obj_id": {
+    "$oid": "63da5916171e967049012c2c"
+  },
+  "updated_at": {
+    "$date": "2023-06-13T09:24:15.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-01T12:20:38.000Z"
+  },
+  "district_code": "321",
+  "updated_by": 1,
+  "cat_thumb_img": [
+    {
+      "image_id": "64786a6039ff8145d0002ce2",
+      "category_id": "63d6c654ec7aa076f30b35d0"
+    },
+    {
+      "image_id": "6478721839ff8145d0002ced",
+      "category_id": "63e90a550e6185b3d60e9404"
+    },
+    {
+      "image_id": "647875da39ff8145d0002cf4",
+      "category_id": "638edc488c2638cfa704ad5a"
+    },
+    {
+      "image_id": "647875db39ff8145d0002cf5",
+      "category_id": "638ede278c2638cfa704ad69"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63da5bcc171e967049012c30"
+  },
+  "parent_destination": [
+    "638ede278c2638cfa704ad69"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Howrah",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63da5bcc171e967049012c2e"
+  },
+  "full_image_obj_id": {
+    "$oid": "63da5bcc171e967049012c2f"
+  },
+  "updated_at": {
+    "$date": "2023-06-01T11:59:13.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-01T12:32:12.000Z"
+  },
+  "district_code": "313",
+  "updated_by": 1,
+  "cat_thumb_img": [
+    {
+      "image_id": {
+        "$oid": "6478881139ff8145d0002d03"
+      },
+      "category_id": "638ede278c2638cfa704ad69"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63da5c05171e967049012c33"
+  },
+  "parent_destination": [
+    "638ede278c2638cfa704ad69",
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Jhargram",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63da5c05171e967049012c31"
+  },
+  "full_image_obj_id": {
+    "$oid": "63da5c05171e967049012c32"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T06:28:59.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-01T12:33:09.000Z"
+  },
+  "district_code": "703",
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63e0f9bde1e96d5daf0e5c4c"
+  },
+  "parent_destination": [
+    "638edc488c2638cfa704ad5a",
+    "63d6c60bec7aa076f30b35cd"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Kolkata",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63e0f9bce1e96d5daf0e5c4a"
+  },
+  "full_image_obj_id": {
+    "$oid": "63e0f9bde1e96d5daf0e5c4b"
+  },
+  "updated_at": {
+    "$date": "2023-05-12T05:37:29.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-06T12:59:41.000Z"
+  },
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63e76f3ff21baf83e8050ec7"
+  },
+  "parent_destination": [
+    "638edc488c2638cfa704ad5a",
+    "63d6c654ec7aa076f30b35d0",
+    "63e72c1cf21baf83e8050ec4"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Bankura",
+  "district_code": "305",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63e76f3ff21baf83e8050ec5"
+  },
+  "full_image_obj_id": {
+    "$oid": "63e76f3ff21baf83e8050ec6"
+  },
+  "updated_at": {
+    "$date": "2023-06-01T09:56:13.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-11T10:34:39.000Z"
+  },
+  "updated_by": 1,
+  "cat_thumb_img": [
+    {
+      "image_id": {
+        "$oid": "64786b3d39ff8145d0002ce3"
+      },
+      "category_id": "63d6c654ec7aa076f30b35d0"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63e7c702f21baf83e8050ee1"
+  },
+  "parent_destination": [
+    "63d6c60bec7aa076f30b35cd",
+    "63e72c1cf21baf83e8050ec4"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Bishnupur",
+  "district_code": "305",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "638dc0397de62113ce0e77b5"
+  },
+  "full_image_obj_id": {
+    "$oid": "63e7c702f21baf83e8050ee0"
+  },
+  "updated_at": {
+    "$date": "2023-05-15T06:35:47.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-11T16:49:06.000Z"
+  },
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63e7e0c037d7ed2010058666"
+  },
+  "parent_destination": [
+    "63e72c1cf21baf83e8050ec4"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Paschim Bardhaman",
+  "district_code": "704",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63e7e0bf37d7ed2010058664"
+  },
+  "full_image_obj_id": {
+    "$oid": "63e7e0c037d7ed2010058665"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:10:13.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-11T18:38:56.000Z"
+  },
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63e87df24315f840270835b4"
+  },
+  "parent_destination": [
+    "638edc488c2638cfa704ad5a",
+    "63e72c1cf21baf83e8050ec4"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Malda",
+  "district_code": "316",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63e87df24315f840270835b2"
+  },
+  "full_image_obj_id": {
+    "$oid": "63e87df24315f840270835b3"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T16:00:58.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-12T05:49:38.000Z"
+  },
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63e896734315f84027083624"
+  },
+  "parent_destination": [
+    "63e72c1cf21baf83e8050ec4"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Purba Bardhaman",
+  "district_code": "306",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63e896734315f84027083622"
+  },
+  "full_image_obj_id": {
+    "$oid": "63e896734315f84027083623"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:11:03.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-12T07:34:11.000Z"
+  },
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63e89e23cb7eee55ad00b6f4"
+  },
+  "parent_destination": [
+    "63e72c1cf21baf83e8050ec4"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Paschim Medinipur",
+  "district_code": "318",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63e89e23cb7eee55ad00b6f2"
+  },
+  "full_image_obj_id": {
+    "$oid": "63e89e23cb7eee55ad00b6f3"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T06:08:19.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-12T08:06:59.000Z"
+  },
+  "updated_by": 1002
+},
+{
+  "_id": {
+    "$oid": "63e90cfa0e6185b3d60e9407"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63",
+    "63d6c654ec7aa076f30b35d0",
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Buxa Tiger Reserve",
+  "district_code": "664",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63e90cf90e6185b3d60e9405"
+  },
+  "full_image_obj_id": {
+    "$oid": "63e90cfa0e6185b3d60e9406"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T06:39:27.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-12T15:59:54.000Z"
+  },
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63e9135c0e6185b3d60e940d"
+  },
+  "parent_destination": [
+    "63d6c148ec7aa076f30b35c1"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Jayanti",
+  "district_code": "664",
+  "template_id": 2,
+  "is_active": 0,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63e9135c0e6185b3d60e940b"
+  },
+  "full_image_obj_id": {
+    "$oid": "63e9135c0e6185b3d60e940c"
+  },
+  "updated_at": {
+    "$date": "2023-03-14T10:03:30.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-12T16:27:08.000Z"
+  },
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63e915790e6185b3d60e9410"
+  },
+  "parent_destination": [
+    "63d6c148ec7aa076f30b35c1"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Rajabhatkhawa",
+  "district_code": "664",
+  "template_id": 2,
+  "is_active": 0,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63e915790e6185b3d60e940e"
+  },
+  "full_image_obj_id": {
+    "$oid": "63e915790e6185b3d60e940f"
+  },
+  "updated_at": {
+    "$date": "2023-03-14T10:04:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-12T16:36:09.000Z"
+  },
+  "updated_by": 1
+},
+{
+  "_id": {
+    "$oid": "63e92a030e6185b3d60e9413"
+  },
+  "parent_destination": [
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Shikiajhora Eco Spot",
+  "district_code": "664",
+  "template_id": 2,
+  "is_active": 0,
+  "is_approved": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63e92a020e6185b3d60e9411"
+  },
+  "full_image_obj_id": {
+    "$oid": "63e92a020e6185b3d60e9412"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:59:34.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-12T18:03:47.000Z"
+  },
+  "updated_by": 1001
+},
+{
+  "_id": {
+    "$oid": "63ef1db956673d1a4e0eff87"
+  },
+  "parent_destination": [
+    "63ef194a56673d1a4e0eff84"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Glenburn Tea Estate",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": null,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63ef1db856673d1a4e0eff85"
+  },
+  "full_image_obj_id": {
+    "$oid": "63ef1db956673d1a4e0eff86"
+  },
+  "updated_at": {
+    "$date": "2023-06-01T12:44:35.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-17T06:24:57.000Z"
+  },
+  "cat_thumb_img": [
+    {
+      "image_id": {
+        "$oid": "647892b3b5bad706650ab112"
+      },
+      "category_id": "63ef194a56673d1a4e0eff84"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63ef201956673d1a4e0eff8a"
+  },
+  "parent_destination": [
+    "63ef194a56673d1a4e0eff84"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Goomtee Tea Estate",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": null,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63ef201956673d1a4e0eff88"
+  },
+  "full_image_obj_id": {
+    "$oid": "63ef201956673d1a4e0eff89"
+  },
+  "updated_at": {
+    "$date": "2023-06-01T12:49:12.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-17T06:35:05.000Z"
+  },
+  "cat_thumb_img": [
+    {
+      "image_id": {
+        "$oid": "647893c8b5bad706650ab114"
+      },
+      "category_id": "63ef194a56673d1a4e0eff84"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63ef218556673d1a4e0eff8d"
+  },
+  "parent_destination": [
+    "63ef194a56673d1a4e0eff84"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Ging Tea House",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": null,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63ef218556673d1a4e0eff8b"
+  },
+  "full_image_obj_id": {
+    "$oid": "63ef218556673d1a4e0eff8c"
+  },
+  "updated_at": {
+    "$date": "2023-06-01T12:50:57.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-17T06:41:09.000Z"
+  },
+  "cat_thumb_img": [
+    {
+      "image_id": {
+        "$oid": "64789431b5bad706650ab117"
+      },
+      "category_id": "63ef194a56673d1a4e0eff84"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63ef241756673d1a4e0eff90"
+  },
+  "parent_destination": [
+    "63ef194a56673d1a4e0eff84"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Tumsong Chiabari",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": null,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63ef241756673d1a4e0eff8e"
+  },
+  "full_image_obj_id": {
+    "$oid": "63ef241756673d1a4e0eff8f"
+  },
+  "updated_at": {
+    "$date": "2023-06-01T12:52:55.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-17T06:52:07.000Z"
+  },
+  "cat_thumb_img": [
+    {
+      "image_id": {
+        "$oid": "647894a7b5bad706650ab118"
+      },
+      "category_id": "63ef194a56673d1a4e0eff84"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63ef252656673d1a4e0eff93"
+  },
+  "parent_destination": [
+    "63ef194a56673d1a4e0eff84"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Makaibari Tea Estate",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": null,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63ef252656673d1a4e0eff91"
+  },
+  "full_image_obj_id": {
+    "$oid": "63ef252656673d1a4e0eff92"
+  },
+  "updated_at": {
+    "$date": "2023-06-01T12:53:56.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-17T06:56:38.000Z"
+  },
+  "cat_thumb_img": [
+    {
+      "image_id": {
+        "$oid": "647894e4b5bad706650ab11a"
+      },
+      "category_id": "63ef194a56673d1a4e0eff84"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63ef25f156673d1a4e0eff96"
+  },
+  "parent_destination": [
+    "63ef194a56673d1a4e0eff84"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "The Arya Tea Resort",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": null,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63ef25f156673d1a4e0eff94"
+  },
+  "full_image_obj_id": {
+    "$oid": "63ef25f156673d1a4e0eff95"
+  },
+  "updated_at": {
+    "$date": "2023-06-01T12:54:56.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-17T07:00:01.000Z"
+  },
+  "cat_thumb_img": [
+    {
+      "image_id": {
+        "$oid": "64789520b5bad706650ab11c"
+      },
+      "category_id": "63ef194a56673d1a4e0eff84"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63ef27c956673d1a4e0eff99"
+  },
+  "parent_destination": [
+    "63ef194a56673d1a4e0eff84"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "The Mayfair Tea Resort",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": null,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63ef27c856673d1a4e0eff97"
+  },
+  "full_image_obj_id": {
+    "$oid": "63ef27c956673d1a4e0eff98"
+  },
+  "updated_at": {
+    "$date": "2023-06-01T12:55:55.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-17T07:07:53.000Z"
+  },
+  "cat_thumb_img": [
+    {
+      "image_id": {
+        "$oid": "6478955bb5bad706650ab11e"
+      },
+      "category_id": "63ef194a56673d1a4e0eff84"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63ef288656673d1a4e0eff9c"
+  },
+  "parent_destination": [
+    "63ef194a56673d1a4e0eff84"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Rajpur Tea Gardens",
+  "district_code": "314",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": null,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63ef288656673d1a4e0eff9a"
+  },
+  "full_image_obj_id": {
+    "$oid": "63ef288656673d1a4e0eff9b"
+  },
+  "updated_at": {
+    "$date": "2023-06-01T12:56:56.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-17T07:11:02.000Z"
+  },
+  "cat_thumb_img": [
+    {
+      "image_id": {
+        "$oid": "64789598b5bad706650ab120"
+      },
+      "category_id": "63ef194a56673d1a4e0eff84"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63ef292256673d1a4e0eff9f"
+  },
+  "parent_destination": [
+    "63ef194a56673d1a4e0eff84"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Singtom Tea Estate",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": null,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63ef292256673d1a4e0eff9d"
+  },
+  "full_image_obj_id": {
+    "$oid": "63ef292256673d1a4e0eff9e"
+  },
+  "updated_at": {
+    "$date": "2023-06-01T12:58:02.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-17T07:13:38.000Z"
+  },
+  "cat_thumb_img": [
+    {
+      "image_id": {
+        "$oid": "647895dab5bad706650ab122"
+      },
+      "category_id": "63ef194a56673d1a4e0eff84"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63ef2a4b56673d1a4e0effa2"
+  },
+  "parent_destination": [
+    "63ef194a56673d1a4e0eff84"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Damdim Tea Residency",
+  "district_code": "314",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": null,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63ef2a4a56673d1a4e0effa0"
+  },
+  "full_image_obj_id": {
+    "$oid": "63ef2a4b56673d1a4e0effa1"
+  },
+  "updated_at": {
+    "$date": "2023-06-01T12:59:15.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-17T07:18:35.000Z"
+  },
+  "cat_thumb_img": [
+    {
+      "image_id": {
+        "$oid": "64789623b5bad706650ab124"
+      },
+      "category_id": "63ef194a56673d1a4e0eff84"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63ef339c56673d1a4e0effc3"
+  },
+  "parent_destination": [
+    "63ef194a56673d1a4e0eff84"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Sourenee Tea Estate",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": null,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63ef339b56673d1a4e0effc1"
+  },
+  "full_image_obj_id": {
+    "$oid": "63ef339c56673d1a4e0effc2"
+  },
+  "updated_at": {
+    "$date": "2023-06-01T13:00:10.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-17T07:58:20.000Z"
+  },
+  "cat_thumb_img": [
+    {
+      "image_id": {
+        "$oid": "6478965ab5bad706650ab126"
+      },
+      "category_id": "63ef194a56673d1a4e0eff84"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63f607991ac1db467607abc4"
+  },
+  "parent_destination": [
+    "638edc998c2638cfa704ad5d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Udaipur",
+  "district_code": "317",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63f607991ac1db467607abc2"
+  },
+  "full_image_obj_id": {
+    "$oid": "63f607991ac1db467607abc3"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:53:37.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-22T12:16:25.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63f5f3fd4de79e5c160fc4a0"
+  },
+  "parent_destination": [
+    "638edb4b8c2638cfa704ad57"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Phalut",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63f5f3fd4de79e5c160fc49e"
+  },
+  "full_image_obj_id": {
+    "$oid": "63f5f3fd4de79e5c160fc49f"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T10:17:13.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-22T10:52:45.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63f5f5b94de79e5c160fc4a3"
+  },
+  "parent_destination": [
+    "638edb4b8c2638cfa704ad57"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Lepchajagat",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63f5f5b84de79e5c160fc4a1"
+  },
+  "full_image_obj_id": {
+    "$oid": "63f5f5b94de79e5c160fc4a2"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:51:32.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-22T11:00:09.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63f5f76ac2833880ea035474"
+  },
+  "parent_destination": [
+    "638edb4b8c2638cfa704ad57"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Ajodhya Hills",
+  "district_code": "321",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63f5f76ac2833880ea035472"
+  },
+  "full_image_obj_id": {
+    "$oid": "63f5f76ac2833880ea035473"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T10:42:34.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-22T11:07:22.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63f7106626aa768e5903e7df"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Lothian Island Wildlife Sanctuary",
+  "district_code": "304",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63f7106626aa768e5903e7dd"
+  },
+  "full_image_obj_id": {
+    "$oid": "63f7106626aa768e5903e7de"
+  },
+  "updated_at": {
+    "$date": "2023-05-08T07:35:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-23T07:06:14.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63f70c9626aa768e5903e7dc"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Chilapata Forest",
+  "district_code": "664",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63f70c9626aa768e5903e7da"
+  },
+  "full_image_obj_id": {
+    "$oid": "63f70c9626aa768e5903e7db"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T10:18:50.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-23T06:49:58.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63f727b026aa768e5903e7e8"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Murti Wildlife Sanctuary",
+  "district_code": "314",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63f727af26aa768e5903e7e6"
+  },
+  "full_image_obj_id": {
+    "$oid": "63f727b026aa768e5903e7e7"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:13:41.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-23T08:45:36.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63f72abb26aa768e5903e7eb"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63",
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Adina Deer Park",
+  "district_code": "316",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63f72aba26aa768e5903e7e9"
+  },
+  "full_image_obj_id": {
+    "$oid": "63f72aba26aa768e5903e7e9"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T06:27:56.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-23T08:58:35.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63f72bed26aa768e5903e7ee"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Garh Panchakot",
+  "district_code": "321",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63f72bec26aa768e5903e7ec"
+  },
+  "full_image_obj_id": {
+    "$oid": "63f72bed26aa768e5903e7ed"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T10:54:56.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-23T09:03:41.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63f72f0026aa768e5903e7f4"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Duarsini",
+  "district_code": "321",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63f72eff26aa768e5903e7f2"
+  },
+  "full_image_obj_id": {
+    "$oid": "63f72f0026aa768e5903e7f3"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T10:54:26.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-23T09:16:48.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63f7315226aa768e5903e7f7"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Bethuadahari",
+  "district_code": "320",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63f7315226aa768e5903e7f5"
+  },
+  "full_image_obj_id": {
+    "$oid": "63f7315226aa768e5903e7f6"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T10:45:03.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-23T09:26:42.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc5ec5cec836803000e136"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Murshidabad Jain Temple",
+  "district_code": "319",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc5ec4cec836803000e134"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc5ec5cec836803000e135"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:13:07.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T07:41:57.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc60bdcec836803000e139"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Purulia Jain Temple",
+  "district_code": "321",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc60bdcec836803000e137"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc60bdcec836803000e138"
+  },
+  "updated_at": {
+    "$date": "2023-03-15T05:56:55.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T07:50:21.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc6f45cec836803000e142"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Ghoom Monastery",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc6f45cec836803000e140"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc6f45cec836803000e141"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:38:03.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T08:52:21.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc7315cec836803000e14e"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Birla Mandir",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc7315cec836803000e14c"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc7315cec836803000e14d"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T10:46:46.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T09:08:37.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc741dcec836803000e154"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Pareswanath Temple Digambar",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc741dcec836803000e152"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc741dcec836803000e153"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:15:42.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T09:13:01.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc74d8cec836803000e15a"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Pareswanath Temple Swetambar",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc74d8cec836803000e158"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc74d8cec836803000e159"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:09:50.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T09:16:08.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc7feacec836803000e160"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Indian Museum",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc7feacec836803000e15e"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc7feacec836803000e15f"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:45:12.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T10:03:22.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc8126cec836803000e166"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Marble Palace",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc8125cec836803000e164"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc8126cec836803000e165"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:12:32.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T10:08:38.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc8409cec836803000e16c"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Sovabazar Rajbari",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc8409cec836803000e16a"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc8409cec836803000e16b"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:00:36.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T10:20:57.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc861fcec836803000e172"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Jorasanko Thakurbari",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc861fcec836803000e170"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc861fcec836803000e171"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:47:01.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T10:29:51.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc88c6cec836803000e178"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Jorasanko Rajbari",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 0,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc88c5cec836803000e176"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc88c6cec836803000e177"
+  },
+  "updated_at": {
+    "$date": "2023-03-14T10:09:34.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T10:41:10.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc909ccec836803000e17e"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "House of Gokul Mitra",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc909ccec836803000e17c"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc909ccec836803000e17d"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:42:42.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T11:14:36.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc922bcec836803000e183"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Bandel Church",
+  "district_code": "312",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc922acec836803000e181"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc922bcec836803000e182"
+  },
+  "updated_at": {
+    "$date": "2023-03-14T10:11:17.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T11:21:15.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc9408cec836803000e189"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Serampore",
+  "district_code": "312",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc9407cec836803000e187"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc9408cec836803000e188"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:58:13.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T11:29:12.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc94dccec836803000e18f"
+  },
+  "parent_destination": [
+    "62fded584f32074b6d01ed76",
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Chandannagar",
+  "district_code": "312",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc94dccec836803000e18d"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc94dccec836803000e18e"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T11:37:18.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T11:32:44.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc988dcec836803000e195"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Chinsurah",
+  "district_code": "312",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc988dcec836803000e193"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc988dcec836803000e194"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T10:49:58.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T11:48:29.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc995ccec836803000e19b"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "House of Sarada Maa",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc995bcec836803000e199"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc995ccec836803000e19a"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:36:32.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T11:51:56.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc9a90cec836803000e1a1"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Balaram Mandir",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc9a90cec836803000e19f"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc9a90cec836803000e1a0"
+  },
+  "updated_at": {
+    "$date": "2023-03-14T10:10:39.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T11:57:04.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fc9eb5cec836803000e1a7"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "House of Swami Vivekananda",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fc9eb4cec836803000e1a5"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fc9eb5cec836803000e1a6"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:43:22.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T12:14:45.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fca17bcec836803000e1ad"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "The Darjeeling Himalayan Railway",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fca17bcec836803000e1ab"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fca17bcec836803000e1ac"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:56:03.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T12:26:35.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fca32dcec836803000e1b3"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "The Hazarduari Palace, Murshidabad",
+  "district_code": "319",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fca32ccec836803000e1b1"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fca32dcec836803000e1b2"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:56:18.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-27T12:33:49.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fd96988ffe009a67043f44"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Jor Bangla Temple, Bishnupur",
+  "district_code": "318",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fd96988ffe009a67043f42"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fd96988ffe009a67043f43"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:46:28.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-28T05:52:24.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fd986b8ffe009a67043f4a"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "The Rajbari Bawali",
+  "district_code": "304",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fd986a8ffe009a67043f48"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fd986b8ffe009a67043f49"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:57:54.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-28T06:00:11.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fd99c68ffe009a67043f50"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Rasamancha, Bishnupur",
+  "district_code": "305",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fd99c58ffe009a67043f4e"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fd99c68ffe009a67043f4f"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:01:15.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-28T06:05:58.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fd9b058ffe009a67043f56"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Itachuna Rajbari",
+  "district_code": "312",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fd9b058ffe009a67043f54"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fd9b058ffe009a67043f55"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:45:02.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-28T06:11:17.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fd9d368ffe009a67043f5c"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "The Bari Kothi Heritage Property",
+  "district_code": "319",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fd9d368ffe009a67043f5a"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fd9d368ffe009a67043f5b"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:55:43.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-28T06:20:38.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fd9e238ffe009a67043f62"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Cooch Behar Palace",
+  "district_code": "308",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fd9e238ffe009a67043f60"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fd9e238ffe009a67043f61"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T10:51:13.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-28T06:24:35.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fd9ffe8ffe009a67043f68"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Murshidabad Rajbari/Choto Rajbari",
+  "district_code": "319",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fd9ffe8ffe009a67043f66"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fd9ffe8ffe009a67043f67"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T12:13:22.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-28T06:32:30.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fda1628ffe009a67043f6e"
+  },
+  "parent_destination": [
+    "638edd438c2638cfa704ad60"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Krishnanagar",
+  "district_code": "320",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1001,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "63fda1618ffe009a67043f6c"
+  },
+  "full_image_obj_id": {
+    "$oid": "63fda1628ffe009a67043f6d"
+  },
+  "updated_at": {
+    "$date": "2023-03-02T11:49:08.000Z"
+  },
+  "created_at": {
+    "$date": "2023-02-28T06:38:26.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "640ec7b53b5bd7cf7d0c1bb6"
+  },
+  "parent_destination": [
+    "638edc488c2638cfa704ad5a"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Murshidabad",
+  "district_code": "319",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "640ec7b43b5bd7cf7d0c1bb4"
+  },
+  "full_image_obj_id": {
+    "$oid": "640ec7b53b5bd7cf7d0c1bb5"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T16:06:48.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-13T06:50:29.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "640ec94c3b5bd7cf7d0c1bbc"
+  },
+  "parent_destination": [
+    "638edc488c2638cfa704ad5a"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Cooch Behar",
+  "district_code": "308",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "640ec94c3b5bd7cf7d0c1bba"
+  },
+  "full_image_obj_id": {
+    "$oid": "640ec94c3b5bd7cf7d0c1bbb"
+  },
+  "updated_at": {
+    "$date": "2023-03-16T06:53:29.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-13T06:57:16.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "640ecc023b5bd7cf7d0c1bc2"
+  },
+  "parent_destination": [
+    "638edc488c2638cfa704ad5a"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Birbhum",
+  "district_code": "307",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "640ecc023b5bd7cf7d0c1bc0"
+  },
+  "full_image_obj_id": {
+    "$oid": "640ecc023b5bd7cf7d0c1bc1"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T15:10:37.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-13T07:08:50.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "640ecd153b5bd7cf7d0c1bca"
+  },
+  "parent_destination": [
+    "638edc488c2638cfa704ad5a"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Nadia",
+  "district_code": "320",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "640ecd153b5bd7cf7d0c1bc8"
+  },
+  "full_image_obj_id": {
+    "$oid": "640ecd153b5bd7cf7d0c1bc9"
+  },
+  "updated_at": {
+    "$date": "2023-03-16T06:54:50.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-13T07:13:25.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "640ed0333b5bd7cf7d0c1bd0"
+  },
+  "parent_destination": [
+    "638edc488c2638cfa704ad5a"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Bardhaman",
+  "district_code": "306",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "640ed0333b5bd7cf7d0c1bce"
+  },
+  "full_image_obj_id": {
+    "$oid": "640ed0333b5bd7cf7d0c1bcf"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T16:11:15.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-13T07:26:43.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "640ed9023b5bd7cf7d0c1bd6"
+  },
+  "parent_destination": [
+    "638edc488c2638cfa704ad5a"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Hooghly",
+  "district_code": "312",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "640ed9023b5bd7cf7d0c1bd4"
+  },
+  "full_image_obj_id": {
+    "$oid": "640ed9023b5bd7cf7d0c1bd5"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T08:05:39.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-13T08:04:18.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "640eec926eba05b8070d2874"
+  },
+  "parent_destination": [
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Motijheel Park",
+  "district_code": "319",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "640eec916eba05b8070d2872"
+  },
+  "full_image_obj_id": {
+    "$oid": "640eec926eba05b8070d2873"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T09:29:44.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-13T09:27:46.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "640ef4966eba05b8070d287a"
+  },
+  "parent_destination": [
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Chamurchi Eco Park",
+  "district_code": "314",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "640ef4966eba05b8070d2878"
+  },
+  "full_image_obj_id": {
+    "$oid": "640ef4966eba05b8070d2879"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T10:03:33.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-13T10:01:58.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "640ef8ca6eba05b8070d2880"
+  },
+  "parent_destination": [
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "ECO PARK NEW TOWN, KOLKATA",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "640ef8ca6eba05b8070d287e"
+  },
+  "full_image_obj_id": {
+    "$oid": "640ef8ca6eba05b8070d287f"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T10:21:05.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-13T10:19:54.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "640efede6eba05b8070d2886"
+  },
+  "parent_destination": [
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Sillery Gaon",
+  "district_code": "702",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "640efedd6eba05b8070d2884"
+  },
+  "full_image_obj_id": {
+    "$oid": "640efede6eba05b8070d2885"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T10:47:30.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-13T10:45:50.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "640f08d16eba05b8070d288c"
+  },
+  "parent_destination": [
+    "62fded584f32074b6d01ed76"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Princep Ghat",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "640f08d16eba05b8070d288a"
+  },
+  "full_image_obj_id": {
+    "$oid": "640f08d16eba05b8070d288b"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T11:30:01.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-13T11:28:17.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "640f09bc6eba05b8070d2892"
+  },
+  "parent_destination": [
+    "62fded584f32074b6d01ed76"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Millennium Park",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "640f09bc6eba05b8070d2890"
+  },
+  "full_image_obj_id": {
+    "$oid": "640f09bc6eba05b8070d2891"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T11:33:53.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-13T11:32:12.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "640f0a4d6eba05b8070d2898"
+  },
+  "parent_destination": [
+    "62fded584f32074b6d01ed76"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Babughat",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "640f0a4d6eba05b8070d2896"
+  },
+  "full_image_obj_id": {
+    "$oid": "640f0a4d6eba05b8070d2897"
+  },
+  "updated_at": {
+    "$date": "2023-03-13T11:35:31.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-13T11:34:37.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "641005c7ba3de81f7e08f68c"
+  },
+  "parent_destination": [
+    "63d6c60bec7aa076f30b35cd"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Dooars Valley",
+  "district_code": "664",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "641005c6ba3de81f7e08f68a"
+  },
+  "full_image_obj_id": {
+    "$oid": "641005c6ba3de81f7e08f68b"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T10:19:25.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-14T05:27:35.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "641008ffba3de81f7e08f692"
+  },
+  "parent_destination": [
+    "63d6c654ec7aa076f30b35d0"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Sea Beaches",
+  "district_code": "317",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "641008feba3de81f7e08f690"
+  },
+  "full_image_obj_id": {
+    "$oid": "641008ffba3de81f7e08f691"
+  },
+  "updated_at": {
+    "$date": "2023-03-14T05:42:37.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-14T05:41:19.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "641027af7360f426df0b2ff4"
+  },
+  "parent_destination": [
+    "63d6c60bec7aa076f30b35cd"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "South Khairbari Nature Park",
+  "district_code": "664",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "641027af7360f426df0b2ff2"
+  },
+  "full_image_obj_id": {
+    "$oid": "641027af7360f426df0b2ff3"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T10:20:21.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-14T07:52:15.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64115c03ccdfa1f837079434"
+  },
+  "parent_destination": [
+    "63d6c60bec7aa076f30b35cd"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Chalsa",
+  "district_code": "314",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "64115c02ccdfa1f837079432"
+  },
+  "full_image_obj_id": {
+    "$oid": "64115c03ccdfa1f837079433"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T10:19:59.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-15T05:47:47.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64115d8471d33cd8e80f9d24"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "ISKCON Kolkata",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "64115d8471d33cd8e80f9d22"
+  },
+  "full_image_obj_id": {
+    "$oid": "64115d8471d33cd8e80f9d23"
+  },
+  "updated_at": {
+    "$date": "2023-05-07T18:20:03.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-15T05:54:12.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64116d501b65f46abc00c174"
+  },
+  "parent_destination": [
+    "63d8be436327ed072c056a1d"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "The Mother House",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "64116d4f1b65f46abc00c172"
+  },
+  "full_image_obj_id": {
+    "$oid": "64116d501b65f46abc00c173"
+  },
+  "updated_at": {
+    "$date": "2023-03-15T07:02:30.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-15T07:01:36.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "641179451efbb7eced070ec4"
+  },
+  "parent_destination": [
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Chatakpur",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "641179451efbb7eced070ec2"
+  },
+  "full_image_obj_id": {
+    "$oid": "641179451efbb7eced070ec3"
+  },
+  "updated_at": {
+    "$date": "2023-03-15T07:55:01.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-15T07:52:37.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64117a241efbb7eced070eca"
+  },
+  "parent_destination": [
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Chuikhim",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "64117a241efbb7eced070ec8"
+  },
+  "full_image_obj_id": {
+    "$oid": "64117a241efbb7eced070ec9"
+  },
+  "updated_at": {
+    "$date": "2023-05-07T16:38:34.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-15T07:56:20.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6411846f45f0b4c72b0e24e4"
+  },
+  "parent_destination": [
+    "63e90a550e6185b3d60e9404"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Tinchuley Village",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "6411846f45f0b4c72b0e24e2"
+  },
+  "full_image_obj_id": {
+    "$oid": "6411846f45f0b4c72b0e24e3"
+  },
+  "updated_at": {
+    "$date": "2023-05-07T16:45:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-15T08:40:15.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64118b22a7dc4d45a8004764"
+  },
+  "parent_destination": [
+    "62fded584f32074b6d01ed76"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Kalimpong - Teesta Bazar",
+  "district_code": "702",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "64118b22a7dc4d45a8004762"
+  },
+  "full_image_obj_id": {
+    "$oid": "64118b22a7dc4d45a8004763"
+  },
+  "updated_at": {
+    "$date": "2023-05-07T17:37:17.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-15T09:08:50.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64118b7ea7dc4d45a800476a"
+  },
+  "parent_destination": [
+    "63d6c60bec7aa076f30b35cd"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "RasikBeel",
+  "district_code": "308",
+  "template_id": 1,
+  "is_active": 0,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "64118b7ea7dc4d45a8004768"
+  },
+  "full_image_obj_id": {
+    "$oid": "64118b7ea7dc4d45a8004769"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T11:16:37.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-15T09:10:22.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64118bf6a7dc4d45a8004770"
+  },
+  "parent_destination": [
+    "62fded584f32074b6d01ed76"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Mukutmanipur Dam",
+  "district_code": "305",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "64118bf6a7dc4d45a800476e"
+  },
+  "full_image_obj_id": {
+    "$oid": "64118bf6a7dc4d45a800476f"
+  },
+  "updated_at": {
+    "$date": "2023-05-07T17:34:46.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-15T09:12:22.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64118c59a7dc4d45a8004776"
+  },
+  "parent_destination": [
+    "62fded584f32074b6d01ed76"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Jagannath Ghat",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "64118c59a7dc4d45a8004774"
+  },
+  "full_image_obj_id": {
+    "$oid": "64118c59a7dc4d45a8004775"
+  },
+  "updated_at": {
+    "$date": "2023-05-16T12:13:48.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-15T09:14:01.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64118cbda7dc4d45a800477c"
+  },
+  "parent_destination": [
+    "62fded584f32074b6d01ed76"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Outram Ghat",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "64118cbca7dc4d45a800477a"
+  },
+  "full_image_obj_id": {
+    "$oid": "64118cbda7dc4d45a800477b"
+  },
+  "updated_at": {
+    "$date": "2023-05-07T17:37:39.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-15T09:15:41.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64118d1da7dc4d45a8004782"
+  },
+  "parent_destination": [
+    "62fded584f32074b6d01ed76"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Armenian Ghat",
+  "district_code": "315",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "64118d1da7dc4d45a8004780"
+  },
+  "full_image_obj_id": {
+    "$oid": "64118d1da7dc4d45a8004781"
+  },
+  "updated_at": {
+    "$date": "2023-05-07T17:38:01.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-15T09:17:17.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64119b1cf44207a55b0d9314"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Senchal Wildlife Sanctuary",
+  "district_code": "309",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "64119b1bf44207a55b0d9312"
+  },
+  "full_image_obj_id": {
+    "$oid": "64119b1cf44207a55b0d9313"
+  },
+  "updated_at": {
+    "$date": "2023-05-07T18:54:36.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-15T10:17:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64119bf9f44207a55b0d931a"
+  },
+  "parent_destination": [
+    "638eddb28c2638cfa704ad63"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Raiganj Wildlife Sanctuary",
+  "district_code": "311",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "64119bf9f44207a55b0d9318"
+  },
+  "full_image_obj_id": {
+    "$oid": "64119bf9f44207a55b0d9319"
+  },
+  "updated_at": {
+    "$date": "2023-03-15T10:22:18.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-15T10:20:41.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6412c039d80e2e5dfb089464"
+  },
+  "parent_destination": [
+    "638edc488c2638cfa704ad5a"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "Paschim and Purba Medinipur",
+  "district_code": "317",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1001,
+  "thumbnail_image_obj_id": {
+    "$oid": "6412c039d80e2e5dfb089462"
+  },
+  "full_image_obj_id": {
+    "$oid": "6412c039d80e2e5dfb089463"
+  },
+  "updated_at": {
+    "$date": "2023-05-08T06:05:43.000Z"
+  },
+  "created_at": {
+    "$date": "2023-03-16T07:07:37.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c5e4f09c48a40132080bd4"
+  },
+  "parent_destination": [
+    "62fded584f32074b6d01ed76"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "defaultData21",
+  "short_desc": "defaultData21",
+  "district_code": "306",
+  "template_id": 2,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "66c5e4ef9c48a40132080bd2"
+  },
+  "full_image_obj_id": {
+    "$oid": "66c5e4f09c48a40132080bd3"
+  },
+  "updated_at": {
+    "$date": "2024-08-21T13:00:32.000Z"
+  },
+  "created_at": {
+    "$date": "2024-08-21T13:00:32.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66c6e5a639b01aa54706aa06"
+  },
+  "parent_destination": [
+    "66c6e56139b01aa54706aa03"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "sk_dest",
+  "short_desc": "sk_destination",
+  "district_code": "306",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "66c6e5a639b01aa54706aa04"
+  },
+  "full_image_obj_id": {
+    "$oid": "66c6e5a639b01aa54706aa05"
+  },
+  "updated_at": {
+    "$date": "2024-08-22T07:19:47.000Z"
+  },
+  "created_at": {
+    "$date": "2024-08-22T07:15:50.000Z"
+  },
+  "cat_thumb_img": []
+},
+{
+  "_id": {
+    "$oid": "66d7f98936b0c68c480f74d5"
+  },
+  "parent_destination": [
+    "66c6e56139b01aa54706aa03"
+  ],
+  "type": "place",
+  "page_type": "detail",
+  "name": "ISKCON HOWRAH",
+  "short_desc": "ISKCON HOWRAH",
+  "district_code": "313",
+  "template_id": 1,
+  "is_active": 1,
+  "is_approved": 1,
+  "created_by": 1,
+  "updated_by": 1,
+  "thumbnail_image_obj_id": {
+    "$oid": "66d7f98836b0c68c480f74d3"
+  },
+  "full_image_obj_id": {
+    "$oid": "66d7f98936b0c68c480f74d4"
+  },
+  "updated_at": {
+    "$date": "2024-09-04T06:11:22.000Z"
+  },
+  "created_at": {
+    "$date": "2024-09-04T06:09:13.000Z"
+  }
+}]

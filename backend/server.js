@@ -3,9 +3,10 @@ const path = require('path');
 const dotenv = require('dotenv');
 const express = require('express');
 const connectDB = require('./config/db');
+
 const userRoutes = require('./routes/userRoutes');
 const adminRoutes = require('./routes/adminRoutes');
-// const authRoutes = require('./routes/authRoutes'); // need to be add
+const frontendRoutes = require('./routes/frontendRoutes');
 
 dotenv.config();
 connectDB();
@@ -16,6 +17,7 @@ app.use(cors());
 app.use(express.json());
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
 
+app.use('/api', frontendRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/admin', adminRoutes);
 

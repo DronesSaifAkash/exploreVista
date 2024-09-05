@@ -51,7 +51,7 @@ export default function Index() {
 
         <img
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px bg-dark"
-          src={require("assets/img/pattern_react.png").default}
+          src="http://localhost:5000/images/banner/beach1.jpg"
           alt="..."
         />
       </section>
@@ -82,7 +82,7 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
                 <img
                   alt="..."
-                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                  src="http://localhost:5000/images/banner/beach2.jpg"
                   className="w-full align-middle rounded-t-lg"
                 />
                 <blockquote className="relative p-8 mb-4">
@@ -229,32 +229,32 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
                 <img
                   alt="..."
-                  src={require("assets/img/component-btn.png").default}
+                  src="http://localhost:5000/images/banner/model1.jpg"
                   className="w-full align-middle rounded absolute shadow-lg max-w-100-px z-3 left-145-px -top-29-px"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-profile-card.png").default}
+                  src="http://localhost:5000/images/banner/vict1.jpg"
                   className="w-full align-middle rounded-lg absolute shadow-lg -top-160-px left-260-px max-w-210-px"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-info-card.png").default}
+                  src="http://localhost:5000/images/banner/tree1.jpg"
                   className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px -top-225-px left-40-px z-2"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-info-2.png").default}
+                  src="http://localhost:5000/images/banner/sky1.jpg"
                   className="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-menu.png").default}
-                  className="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-210-px"
+                  src="http://localhost:5000/images/banner/model2.jpg"
+                  className="w-full align-middle rounded absolute shadow-lg max-w-200-px -left-20-px top-210-px"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-btn-pink.png").default}
+                  src="http://localhost:5000/images/banner/sunset.jpg"
                   className="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px"
                 />
               </div>
@@ -273,7 +273,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
+                        src="http://localhost:5000/images/banner/sunset.jpg"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         Svelte
@@ -288,7 +288,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
+                        src="http://localhost:5000/images/banner/sunset.jpg"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         ReactJS
@@ -303,7 +303,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nextjs.jpg"
+                        src="http://localhost:5000/images/banner/sunset.jpg"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         NextJS
@@ -320,7 +320,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+                        src="http://localhost:5000/images/banner/sunset.jpg"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         JavaScript
@@ -335,7 +335,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
+                        src="http://localhost:5000/images/banner/sunset.jpg"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         Angular
@@ -350,7 +350,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
+                        src="http://localhost:5000/images/banner/sunset.jpg"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         Vue.js
@@ -486,7 +486,7 @@ export default function Index() {
                   transform:
                     "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                 }}
-                src={require("assets/img/documentation.png").default}
+                src="http://localhost:5000/images/banner/sunset.jpg"
               />
             </div>
           </div>
@@ -518,7 +518,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={require("assets/img/login.jpg").default}
+                        src="http://localhost:5000/images/banner/sunset.jpg"
                       />
                     </div>
                   </Link>
@@ -533,7 +533,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={require("assets/img/profile.jpg").default}
+                        src="http://localhost:5000/images/banner/sunset.jpg"
                       />
                     </div>
                   </Link>
@@ -548,7 +548,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={require("assets/img/landing.jpg").default}
+                        src="http://localhost:5000/images/banner/sunset.jpg"
                       />
                     </div>
                   </Link>

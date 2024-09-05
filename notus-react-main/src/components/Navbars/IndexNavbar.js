@@ -133,6 +133,15 @@ export default function Navbar(props) {
             id="example-navbar-warning"
           >
             <ul className="flex flex-col lg:flex-row list-none mr-auto">
+              {/* DistrictList */}
+              <li className="flex items-center">
+                <Link
+                  to="/districts"
+                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                >
+                  Explore
+                </Link>
+              </li>
               <li className="flex items-center">
                 <Link
                   to="/destinations"
