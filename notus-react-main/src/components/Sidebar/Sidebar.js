@@ -151,6 +151,29 @@ export default function Sidebar() {
                 </Link>
               </li>
               {/* ends destinations */}
+              {/* Contact Us  AdminContactList*/}
+              <li className="items-center">
+                <Link
+                  className={
+                    "text-xs uppercase py-3 font-bold block " +
+                    (window.location.href.indexOf("/admin/contacts-list") !== -1
+                      ? "text-lightBlue-500 hover:text-lightBlue-600"
+                      : "text-blueGray-700 hover:text-blueGray-500")
+                  }
+                  to="/admin/contacts-list"
+                >
+                  <i 
+                    className={
+                      "fas fa-marker  mr-2 text-sm " +
+                      (window.location.href.indexOf("/admin/contacts-list") !== -1
+                        ? "opacity-75"
+                        : "text-blueGray-300")
+                    }
+                  ></i>{" "}
+                  Contacts List
+                </Link>
+              </li>
+              {/* contact us ends here */}
 
               <li className="items-center">
                 <Link

@@ -1,11 +1,47 @@
 /*eslint-disable*/
-import React from "react";
+import React, { useState } from 'react';
+import axios from 'axios';
 import { Link } from "react-router-dom";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 export default function Index() {
+
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  });
+  const [status, setStatus] = useState('');
+  const [error, setError] = useState('');
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError('');
+    setStatus('');
+    try {
+      const response = await axios.post('/api/contact', formData);
+      setStatus('Message sent successfully!');
+      setFormData({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+      });
+    } catch (error) {
+      setError('Error sending message. Please try again later.');
+    }
+  };
+
   return (
     <>
       <IndexNavbar fixed />
@@ -558,8 +594,8 @@ export default function Index() {
           </div>
         </div>
       </section>
-
-      <section className="py-20 bg-blueGray-600 overflow-hidden">
+      {/* here changes for contact us */}
+      {/* <section className="py-20 bg-blueGray-600 overflow-hidden">
         <div className="container mx-auto pb-64">
           <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64">
@@ -600,8 +636,82 @@ export default function Index() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
+      <section className="py-10 bg-blueGray-600 overflow-hidden">
+        <div className="container mx-auto pb-64">
+          <div className="flex flex-wrap justify-center ">
+            <div className="w-full md:w-8/12 px-12 md:px-4 ml-auto mr-auto ">
+              <div className="text-blueGray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                <i className="fas fa-envelope text-xl"></i>
+              </div>
+              <h3 className="text-3xl mb-2 font-semibold leading-normal text-white">Contact Us</h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-400">
+                If you have any questions or need further information, feel free to reach out to us using the form below.
+              </p>
+              <form onSubmit={handleSubmit} className="p-6 rounded-lg shadow-2xl hover:shadow-md p-4">
+                <div className="mb-4">
+                  <label className="block text-white text-base font-bold mb-2">Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder='Enter Your Name'
+                    value={formData.name}
+                    onChange={handleChange}
+                    className="form-input mt-1 block w-full border border-gray-300 rounded-md shadow-2xl hover:shadow-md"
+                    required
+                  />
+                </div>
+                <div className="mb-4">
+                  <label className="block font-bold text-white text-base mb-2">Email</label>
+                  <input
+                    type="email"
+                    placeholder='Enter Your Email'
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="form-input mt-1 block w-full border border-gray-300 rounded-md shadow-2xl hover:shadow-md"
+                    required
+                  />
+                </div>
+                <div className="mb-4">
+                  <label className="block text-white text-base font-bold mb-2">Subject</label>
+                  <input
+                    type="text"
+                    name="subject"
+                    value={formData.subject}
+                    onChange={handleChange}
+                    className="form-input mt-1 block w-full border border-gray-300 rounded-md shadow-2xl hover:shadow-md"
+                    required
+                    placeholder='Enter Enquiry Headline..'
+                  />
+                </div>
+                <div className="mb-4">
+                  <label className="block text-white text-base font-bold mb-2">Message</label>
+                  <textarea
+                    name="message"
+                    placeholder='Please share your thoughts/ideas...'
+                    value={formData.message}
+                    onChange={handleChange}
+                    className="form-textarea mt-1 block w-full border border-gray-300 rounded-md shadow-2xl hover:shadow-md"
+                    rows="4"
+                    required
+                  ></textarea>
+                  {status && <p className="mt-4 text-bold rounded text-center text-xl text-white">{status}</p>}
+                  {error && <p className="mt-4 text-bold rounded text-center text-xl text-red-500">{error}</p>}
+                  <button
+                    type="submit"
+                    className="button bg-blueGray-800 shadow-2xl hover:shadow-md text-white  px-6 m-4  py-2 rounded"
+                  >
+                    Send Message
+                  </button>
+                </div>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="pb-16 bg-blueGray-200 relative pt-32">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"

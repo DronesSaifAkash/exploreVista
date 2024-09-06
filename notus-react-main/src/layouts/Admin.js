@@ -16,6 +16,9 @@ import Settings from "views/admin/Settings.js";
 import Tables from "views/admin/Tables.js";
 import AdminDistrict from "views/admin/AdminDistrict";
 import AdminDestinations from "views/admin/AdminDestinations";
+import AdminAddDestinationForm from "views/admin/AdminAddDestinationForm";
+import AdminEditDestinationForm from "views/admin/AdminEditDestinationForm";
+import AdminContactList from "views/admin/AdminContactList";
 
 export default function Admin() {
   return (
@@ -33,6 +36,9 @@ export default function Admin() {
             <Route path="/admin/tables" exact component={Tables} />
             <Route path="/admin/districts" component={AdminDistrict} />
             <Route path="/admin/destinations" component={AdminDestinations} />
+            <Route path="/admin/add-destination" component={AdminAddDestinationForm} />
+            <Route path="/admin/edit-destination/:id" component={AdminEditDestinationForm} />
+            <Route path="/admin/contacts-list" component={AdminContactList} />
             <Redirect from="/admin" to="/admin/dashboard" />
           </Switch>
           <FooterAdmin />

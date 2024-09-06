@@ -8,11 +8,11 @@ const DestinationCard = ({ destination }) => {
         <img
           src={`/images/destinations/${destination.image}`} // Image source
           alt={destination.name}
-          className="w-full h-full object-cover rounded-t-lg"
+          className="w-40 h-350-px object-cover "
         />
         <div className="px-4 py-5 flex-auto">
           <h6 className="text-xl font-semibold">{destination.name}</h6>
-          <p className="mt-2 mb-4 text-blueGray-500">
+          <p className="mt-2 mb-4 text-blueGray-500 h-10">
             {destination.description}
           </p>
           <Link

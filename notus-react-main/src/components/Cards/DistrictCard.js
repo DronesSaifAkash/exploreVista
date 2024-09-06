@@ -12,7 +12,7 @@ const DistrictCard = ({ name, thumbnail, description }) => {
                     <img
                         src={`/images/districts/${thumbnail}`} // Image source
                         alt={name}
-                        className="w-full h-full object-cover rounded-t-lg"
+                        className="w-40 h-350-px object-cover object-cover rounded-t-lg"
                     />
                     <div className="px-4 py-5 flex-auto">
                         <h6 className="text-xl font-semibold">{name}</h6>

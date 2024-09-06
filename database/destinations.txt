@@ -540,7 +540,7 @@ db.destinations.insertMany([
     image: "bauria-image.jpg"
   },
   {
-    name: "Kolkata Dockyard",
+    name: "Kolkata Dockyard", //done
     thumbnail: "kolkata-dockyard-thumbnail.jpg",
     description: "A historic dockyard in Kolkata with maritime significance.",
     location: "Kolkata, West Bengal",
@@ -549,7 +549,7 @@ db.destinations.insertMany([
     image: "kolkata-dockyard-image.jpg"
   },
   {
-    name: "Bagbazaar",
+    name: "Bagbazaar", //done
     thumbnail: "bagbazaar-thumbnail.jpg",
     description: "A locality in Kolkata known for its historical landmarks.",
     location: "Kolkata, West Bengal",
@@ -558,7 +558,7 @@ db.destinations.insertMany([
     image: "bagbazaar-image.jpg"
   },
   {
-    name: "Ballygunge",
+    name: "Ballygunge", // done
     thumbnail: "ballygunge-thumbnail.jpg",
     description: "A prominent locality in Kolkata known for its upscale residential areas.",
     location: "Kolkata, West Bengal",

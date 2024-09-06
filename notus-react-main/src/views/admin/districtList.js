@@ -26,11 +26,11 @@ const DistrictList = () => {
     }, []);
 
     return (
-        <div className="flex flex-wrap">
-            <div className="w-full px-4">
-                <div className="card">
-                    <h2 className="text-xl font-semibold mb-4">Districts</h2>
-                    <CardTable color="dark" data={districts} title={"District Table"} />
+        <div className="w-full text-center">
+            <div className="relative flex flex-col min-w-0 break-words bg-lightBlue-200 w-full mb-8 shadow-lg rounded-lg">
+            <div className="flex justify-between items-starts mb-4 p-4 bg-gray-800 rounded-t-lg">
+                {/* <h2 className="text-xl font-semibold text-darkGray-600">Districts</h2> */}
+                    <CardTable color="light" data={districts} title={"Districts"} />
                 </div>
             </div>
         </div>
