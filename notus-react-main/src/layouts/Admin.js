@@ -19,6 +19,10 @@ import AdminDestinations from "views/admin/AdminDestinations";
 import AdminAddDestinationForm from "views/admin/AdminAddDestinationForm";
 import AdminEditDestinationForm from "views/admin/AdminEditDestinationForm";
 import AdminContactList from "views/admin/AdminContactList";
+import AdminContactDetail from "views/admin/AdminContactDetail";
+import AdminTourPackageList from "views/admin/AdminTourPackageList";
+import AdminTourPackageForm from "views/admin/AdminTourPackageForm";
+import AdminEditTourPackage from "views/admin/AdminEditTourPackage";
 
 export default function Admin() {
   return (
@@ -34,11 +38,21 @@ export default function Admin() {
             <Route path="/admin/maps" exact component={Maps} />
             <Route path="/admin/settings" exact component={Settings} />
             <Route path="/admin/tables" exact component={Tables} />
+            
             <Route path="/admin/districts" component={AdminDistrict} />
+            
             <Route path="/admin/destinations" component={AdminDestinations} />
             <Route path="/admin/add-destination" component={AdminAddDestinationForm} />
             <Route path="/admin/edit-destination/:id" component={AdminEditDestinationForm} />
+            
             <Route path="/admin/contacts-list" component={AdminContactList} />
+            <Route path="/admin/contacts/:id" exact component={AdminContactDetail} />
+            
+            <Route path="/admin/tour-packages" exact component={AdminTourPackageList} />
+            <Route path="/admin/add-tour-packages" exact component={AdminTourPackageForm} />
+            <Route path="/admin/edit-tour-packages/:id" exact component={AdminEditTourPackage} />
+            
+            
             <Redirect from="/admin" to="/admin/dashboard" />
           </Switch>
           <FooterAdmin />

@@ -31,6 +31,9 @@ const AdminAddDestinationForm = () => {
           Authorization: `Bearer ${localStorage.getItem('token')}` // Token from localStorage
         },
       });
+      if(response.status===500){
+        window.location.href = '/auth/login';
+      }
       if (response.status === 201) {
         alert('Destination added successfully!');
         history.push('/admin/destinations'); // Redirect after successful creation
@@ -51,7 +54,7 @@ const AdminAddDestinationForm = () => {
     <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-lightBlue-200 border-0">
       <div className="rounded-t bg-white mb-0 px-6 py-6">
         <div className="text-center">
-          <h6 className="text-blueGray-700  text-xl font-bold">Add New Dessstination</h6>
+          <h6 className="text-blueGray-700  text-xl font-bold">Add New Destination</h6>
         </div>
       </div>
       <div className="flex-auto px-4 lg:px-10 py-10 pt-0">

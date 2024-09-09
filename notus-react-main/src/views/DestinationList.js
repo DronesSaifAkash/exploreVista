@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Navbar from "../components/Navbars/IndexNavbar";
 import DestinationCard from "../components/Cards/DestinationCard"; // Import the DestinationCard component
+import Footer from "components/Footers/Footer";
 
 const DestinationList = () => {
     const [destinations, setDestinations] = useState([]);
@@ -87,6 +88,7 @@ const DestinationList = () => {
                     </div>
                 </section>
             </main>
+            <Footer />
         </>
     );
 };

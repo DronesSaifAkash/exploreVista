@@ -55,6 +55,9 @@ const AdminEditDestinationForm = () => {
           Authorization: `Bearer ${localStorage.getItem('token')}`
         },
       });
+      if(response.status===500){
+        window.location.href = '/auth/login';
+      }
       if (response.status === 200) {
         alert('Destination updated successfully!');
         history.push('/admin/destinations'); // Redirect after successful update

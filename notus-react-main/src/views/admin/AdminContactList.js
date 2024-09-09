@@ -17,17 +17,27 @@ const AdminContactList = () => {
                 if (!token) {
                     setError('No token found, please log in.');
                     setLoading(false);
-                    return;
+                    window.location.href = '/auth/login';
                 }
                 const response = await axios.get('/api/admin/contacts', {
                     headers: {
                         Authorization: `Bearer ${token}`
                     }
                 });
+                if(response.status===500){
+                    window.location.href = '/auth/login';
+                }
                 setContacts(response.data);
                 setFilteredContacts(response.data);
                 setLoading(false);
             } catch (err) {
+                if (err.response && err.response.data && err.response.data.err && err.response.data.err.name === 'TokenExpiredError') {
+                    setError('Session has expired. Please log in again.');
+                    localStorage.removeItem('token'); // Clear expired token
+                    window.location.href = '/auth/login'; // Redirect to login page
+                } else {
+                    setError('Error fetching contacts');
+                }
                 console.error('Error fetching contacts:', err);
                 setError('Error fetching contacts');
                 setLoading(false);
@@ -88,7 +98,7 @@ const AdminContactList = () => {
         },
     ];
     const handleView = (id) => {
-        alert(`Viewing contact with id: ${id}`);
+        window.location.href = `/admin/contacts/${id}`;
     };
 
     return (

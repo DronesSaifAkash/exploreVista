@@ -151,6 +151,29 @@ export default function Sidebar() {
                 </Link>
               </li>
               {/* ends destinations */}
+              {/* add here district */}
+              <li className="items-center">
+                <Link
+                  className={
+                    "text-xs uppercase py-3 font-bold block " +
+                    (window.location.href.indexOf("/admin/tour-packages") !== -1
+                      ? "text-lightBlue-500 hover:text-lightBlue-600"
+                      : "text-blueGray-700 hover:text-blueGray-500")
+                  }
+                  to="/admin/tour-packages"
+                >
+                  <i 
+                    className={
+                      "fas fa-umbrella-beach mr-2 text-sm " +
+                      (window.location.href.indexOf("/admin/tour-packages") !== -1
+                        ? "opacity-75"
+                        : "text-blueGray-300")
+                    }
+                  ></i>{" "}
+                  Tour Packages
+                </Link>
+              </li>
+              {/* ends district part */}
               {/* Contact Us  AdminContactList*/}
               <li className="items-center">
                 <Link

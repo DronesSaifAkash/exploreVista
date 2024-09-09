@@ -16,6 +16,7 @@ import Index from "views/Index.js";
 import DistrictList from 'views/DistrictList';
 import DestinationList from "views/DestinationList";
 import PopularPlaces from 'views/PopularPlaces';
+import TourPackageList from "views/TourPackageList";
 
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
@@ -30,6 +31,8 @@ root.render(
       <Route path="/districts" exact component={DistrictList} />
       <Route path="/PopularPlaces" exact component={PopularPlaces} />
       <Route path="/destinations" exact component={DestinationList} />
+      <Route path="/tours" exact component={TourPackageList} />
+
       <Route path="/landing" exact component={Landing} />
       <Route path="/profile" exact component={Profile} />
       <Route path="/" exact component={Index} />

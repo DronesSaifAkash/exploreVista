@@ -4,8 +4,18 @@ const District = require('../models/District'); // Import District model
 const path = require('path');
 const fs = require('fs');
 const Contact = require('../models/contact');
+const TourPackage = require('../models/tourPackageSchema');
 
 class adminController {
+
+    async getAllDestinations(req, res) {
+        try {
+            const destinations = await Destination.find();
+            res.json(destinations);
+        } catch (error) {
+            res.status(500).json({ message: 'Error fetching destinations', error });
+        }
+    }
 
     async addDestination(req, res) {
         try {
@@ -39,6 +49,16 @@ class adminController {
         } catch (error) {
             console.error(error);
             res.status(500).json({ message: 'Server error', error });
+        }
+    }
+
+    async getDestinationById(req, res) {
+        try {
+            const destination = await Destination.findById(req.params.id);
+            if (!destination) return res.status(404).json({ message: 'Destination not found' });
+            res.json(destination);
+        } catch (error) {
+            res.status(500).json({ message: 'Error fetching destination', error });
         }
     }
 
@@ -109,6 +129,127 @@ class adminController {
         } catch (error) {
             console.error(error);
             res.status(500).json({ message: 'Server error', error });
+        }
+    }
+
+    async getContactById(req, res) {
+        try {
+            const { id } = req.params;
+            const contact = await Contact.findById(id);
+            if (!contact) {
+                return res.status(404).json({ message: 'Contact not found' });
+            }
+            res.status(200).json(contact);
+        } catch (error) {
+            res.status(500).json({ message: 'Server Error', error });
+        }
+    }
+
+    async replyToContact (req, res) {
+        const { id } = req.params;
+        const { content } = req.body;
+    
+        try {
+            const contact = await Contact.findById(id);
+            if (!contact) {
+                return res.status(404).json({ message: 'Contact not found' });
+            }
+    
+            // Add reply to the contact
+            const reply = {
+                content,
+                replyBy: req.userId, // This will be the admin replying
+                repliedAt: new Date(),
+            };
+            contact.replies.push(reply);
+    
+            await contact.save();
+    
+            return res.status(200).json({ message: 'Reply sent successfully', contact });
+        } catch (err) {
+            return res.status(500).json({ message: 'Error replying to contact', err });
+        }
+    };
+
+
+    
+    async getTourPackages(req, res) {
+        try {
+            const tourPackages = await TourPackage.find();
+            res.status(200).json(tourPackages);
+        } catch (err) {
+            res.status(500).json({ message: 'Error fetching tour packages', err });
+        }
+    }
+    
+    
+     async createTourPackage(req, res) {
+        try {
+            const { name, description, price, duration, available } = req.body;
+            const newTourPackage = new TourPackage({ name, description, price, duration, available });
+            await newTourPackage.save();
+            res.status(201).json({ message: 'Tour package created successfully', newTourPackage });
+        } catch (err) {
+            res.status(500).json({ message: 'Error creating tour package', err });
+        }
+    }
+
+
+     async getTourPackageById(req, res) {
+        try {
+            const { id } = req.params;
+            const tourPackage = await TourPackage.findById(id);
+            if (!tourPackage) {
+                return res.status(404).json({ message: 'Tour package not found' });
+            }
+            res.status(200).json(tourPackage);
+        } catch (err) {
+            res.status(500).json({ message: 'Error fetching tour package', err });
+        }
+    }
+
+    async updateAvailabilityOfTourPackageById(req, res) {
+        try {
+            const tourPackage = await TourPackage.findById(req.params.id);
+            if (!tourPackage) {
+                return res.status(404).json({ message: 'Tour package not found' });
+            }
+    
+            // Toggle availability
+            tourPackage.available = !tourPackage.available;
+            await tourPackage.save();
+    
+            res.json(tourPackage);
+        } catch (err) {
+            console.error(err);
+            res.status(500).json({ message: 'Server error' });
+        }
+    }
+
+     async updateTourPackage(req, res) {
+        try {
+            const { id } = req.params;
+            const { name, description, price, duration, image, available } = req.body;
+            const updatedTourPackage = await TourPackage.findByIdAndUpdate(id, { name, description, price, duration, image, available }, { new: true });
+            if (!updatedTourPackage) {
+                return res.status(404).json({ message: 'Tour package not found' });
+            }
+            res.status(200).json({ message: 'Tour package updated successfully', updatedTourPackage });
+        } catch (err) {
+            res.status(500).json({ message: 'Error updating tour package', err });
+        }
+    }
+
+     async deleteTourPackage(req, res) {
+        try {
+            const { id } = req.params;
+            const deletedTourPackage = await TourPackage.findByIdAndDelete(id);
+            if (!deletedTourPackage) {
+                return res.status(404).json({ message: 'Tour package not found' });
+            }
+            res.status(200).json({ message: 'Tour package deleted successfully' });
+        } catch (err) {
+            res.status(500).json({ message: 'Error deleting tour package', err });
         }
     }
 

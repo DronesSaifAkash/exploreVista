@@ -8,6 +8,14 @@ import CardPageVisits from "components/Cards/CardPageVisits.js";
 import CardSocialTraffic from "components/Cards/CardSocialTraffic.js";
 
 export default function Dashboard() {
+  const token = localStorage.getItem('token');
+  if (!token) {
+      window.location.href = '/auth/login';
+      return;
+  }
+  //   if(response.status===500){
+  //     window.location.href = '/auth/login';
+  // }
   return (
     <>
       <div className="flex flex-wrap">

@@ -21,6 +21,9 @@ const AdminDestinationTable = ({ destinations }) => {
                     Authorization: `Bearer ${localStorage.getItem('token')}`
                 }
             });
+            if(response.status===500){
+                window.location.href = '/auth/login';
+            }
 
             if (response.status === 200) {
                 alert('Destination deleted successfully');

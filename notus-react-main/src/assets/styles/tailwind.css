@@ -2159,6 +2159,10 @@ select {
   --tw-placeholder-opacity: 1;
   color: rgba(203, 213, 225, var(--tw-placeholder-opacity));
 }
+.placeholder-blueGray-500::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgba(127, 127, 127, var(--tw-placeholder-opacity));
+}
 
 .pointer-events-none {
   pointer-events: none;

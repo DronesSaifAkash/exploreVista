@@ -1,4 +1,4 @@
-// src/views/admin/DistrictList.js
+///// src/views/admin/DistrictList.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import CardTable from 'components/Cards/CardTable';
@@ -10,13 +10,20 @@ const DistrictList = () => {
         try {
             const token = localStorage.getItem('token');
             if (!token) {
-                throw new Error('No token found');
+                window.location.href = '/auth/login';
+                return;
             }
             const response = await axios.get('/api/admin/districts', {
                 headers: { Authorization: `Bearer ${token}` },
             });
+            console.log(response);
+            
+            if(response.status===500){
+                window.location.href = '/auth/login';
+            }
             setDistricts(response.data);
         } catch (error) {
+            window.location.href = '/auth/login'; 
             console.error("There was an error fetching the districts!", error.response ? error.response.data : error.message);
         }
     };
