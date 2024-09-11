@@ -201,9 +201,9 @@ Flow:
 * User/Visitors can see tour packages based on specific locations ( destination )
 * In destination details page, show some important destination details, user can select a tour package based on it 
 * In District details page, all touring spots regarding that district shows and user can select atour package based on it.
-* tour packages based on members ( one person, two persons, or family and group )
+* tour packages based on members // done
 * In portal, Contact Us // done 
-* In portal, Top Feedbacks 
+* In portal, Top Feedbacks // done
 * In portal, User Registration and login // done 
 * In portal, About us // done 
 

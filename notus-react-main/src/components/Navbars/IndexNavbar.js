@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -70,9 +69,7 @@ export default function Navbar(props) {
                   About Us
                 </Link>
               </li>
-              <li className="flex items-center">
-                <IndexDropdown />
-              </li>
+             
             </ul>
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               {isAuthenticated ? (
