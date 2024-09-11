@@ -10,5 +10,9 @@ router.get('/districts', DistrictController.listDistricts);
 router.get('/destinations', DestinationsController.getAllDestinations);
 router.post('/contact', frontendController.submitContactForm);
 router.get('/tour-packages', frontendController.getAlltourDetails);
+router.get('/about-us', frontendController.getAboutUsDetails);
+// Route to get district details by ID
+router.get("/districts/:id",frontendController.getDistrictInfo )
+ 
 
 module.exports = router;

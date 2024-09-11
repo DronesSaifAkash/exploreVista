@@ -44,14 +44,6 @@ const AdminContactDetail = () => {
         fetchContact();
     }, [id, history]);
 
-    if (loading) {
-        return <p>Loading...</p>;
-    }
-
-    if (error) {
-        return <p className="text-red-500">{error}</p>;
-    }
-
     const handleSubmit = async (e) => {
         e.preventDefault();
 
@@ -77,6 +69,14 @@ const AdminContactDetail = () => {
         }
     };
 
+    if (loading) {
+        return <p>Loading...</p>;
+    }
+
+    if (error) {
+        return <p className="text-red-500">{error}</p>;
+    }
+
     return (
         <div className="flex flex-wrap">
             <div className="w-full xl:w-10/12 mb-12 xl:mb-0 px-4 bg-lightBlue-200">
@@ -95,43 +95,42 @@ const AdminContactDetail = () => {
                             )}
                         </div>
 
-                        <div className="conatainer mx-auto p-4">
+                        <div className="container mx-auto p-4">
                             {contact.replies.length > 0 && (
                                 <div className='rounded-t bg-blueGray-200 mb-0 px-6 py-6'>
-                                    <h2> <strong> Replies: </strong></h2>
+                                    <h2><strong>Replies:</strong></h2>
                                     {contact.replies.map((reply, index) => (
-                                        <div key={index} className="reply p-2 rounded-t bg-white m-4  shadow">
+                                        <div key={index} className={`reply p-2 rounded-t m-4 shadow ${reply.replyBy ? 'bg-gray-100' : 'bg-blue-100'}`}>
+                                           <p><strong>{reply.replyBy ? 'Admin Reply' : 'User Reply'} <small> [ {new Date(reply.repliedAt).toLocaleString()} ]</small> :</strong></p>
                                             <p>{reply.content}</p>
-                                            <p>On: {new Date(reply.repliedAt).toLocaleString()}</p>
                                         </div>
                                     ))}
                                 </div>
                             )}
                         </div>
                         <div className="container mx-auto p-4">
-                        <div className='rounded-t bg-white shadow-2xl mb-0 px-6 py-6'>
-                            <h2 className="text-2xl font-semibold mb-4">Send Message to User</h2>
-                            {successMessage && <p className="text-green-500">{successMessage}</p>}
-                            {errorMessage && <p className="text-red-500">{errorMessage}</p>}
-                            <form onSubmit={handleSubmit}>
-                                <div className="mb-4">
-                                    <label className="block text-gray-700 text-sm font-bold mb-2">Message:</label>
-                                    <textarea
-                                        value={content}
-                                        onChange={(e) => setContent(e.target.value)}
-                                        className="form-textarea mt-1 block w-full border border-gray-300 rounded-md shadow-sm"
-                                        required
-                                    />
-                                </div>
-                                <button type="submit" className="bg-blueGray-600 mx-auto text-white px-4 py-2 rounded">Send Message</button>
-                            </form>
-                        </div>
+                            <div className='rounded-t bg-white shadow-2xl mb-0 px-6 py-6'>
+                                <h2 className="text-2xl font-semibold mb-4">Send Message to User</h2>
+                                {successMessage && <p className="text-green-500">{successMessage}</p>}
+                                {errorMessage && <p className="text-red-500">{errorMessage}</p>}
+                                <form onSubmit={handleSubmit}>
+                                    <div className="mb-4">
+                                        <label className="block text-gray-700 text-sm font-bold mb-2">Message:</label>
+                                        <textarea
+                                            value={content}
+                                            onChange={(e) => setContent(e.target.value)}
+                                            className="form-textarea mt-1 block w-full border border-gray-300 rounded-md shadow-sm"
+                                            required
+                                        />
+                                    </div>
+                                    <button type="submit" className="bg-blueGray-600 mx-auto text-white px-4 py-2 rounded">Send Message</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     );
 };
 

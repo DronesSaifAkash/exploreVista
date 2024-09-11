@@ -5,6 +5,7 @@ const path = require('path');
 const fs = require('fs');
 const Contact = require('../models/contact');
 const TourPackage = require('../models/tourPackageSchema');
+const CMS = require('../models/cms');
 
 class adminController {
 
@@ -145,16 +146,16 @@ class adminController {
         }
     }
 
-    async replyToContact (req, res) {
+    async replyToContact(req, res) {
         const { id } = req.params;
         const { content } = req.body;
-    
+
         try {
             const contact = await Contact.findById(id);
             if (!contact) {
                 return res.status(404).json({ message: 'Contact not found' });
             }
-    
+
             // Add reply to the contact
             const reply = {
                 content,
@@ -162,9 +163,9 @@ class adminController {
                 repliedAt: new Date(),
             };
             contact.replies.push(reply);
-    
+
             await contact.save();
-    
+
             return res.status(200).json({ message: 'Reply sent successfully', contact });
         } catch (err) {
             return res.status(500).json({ message: 'Error replying to contact', err });
@@ -172,7 +173,7 @@ class adminController {
     };
 
 
-    
+
     async getTourPackages(req, res) {
         try {
             const tourPackages = await TourPackage.find();
@@ -181,9 +182,9 @@ class adminController {
             res.status(500).json({ message: 'Error fetching tour packages', err });
         }
     }
-    
-    
-     async createTourPackage(req, res) {
+
+
+    async createTourPackage(req, res) {
         try {
             const { name, description, price, duration, available } = req.body;
             const newTourPackage = new TourPackage({ name, description, price, duration, available });
@@ -195,7 +196,7 @@ class adminController {
     }
 
 
-     async getTourPackageById(req, res) {
+    async getTourPackageById(req, res) {
         try {
             const { id } = req.params;
             const tourPackage = await TourPackage.findById(id);
@@ -214,11 +215,9 @@ class adminController {
             if (!tourPackage) {
                 return res.status(404).json({ message: 'Tour package not found' });
             }
-    
-            // Toggle availability
             tourPackage.available = !tourPackage.available;
             await tourPackage.save();
-    
+
             res.json(tourPackage);
         } catch (err) {
             console.error(err);
@@ -226,7 +225,7 @@ class adminController {
         }
     }
 
-     async updateTourPackage(req, res) {
+    async updateTourPackage(req, res) {
         try {
             const { id } = req.params;
             const { name, description, price, duration, image, available } = req.body;
@@ -240,7 +239,7 @@ class adminController {
         }
     }
 
-     async deleteTourPackage(req, res) {
+    async deleteTourPackage(req, res) {
         try {
             const { id } = req.params;
             const deletedTourPackage = await TourPackage.findByIdAndDelete(id);
@@ -253,22 +252,39 @@ class adminController {
         }
     }
 
-    // async addDistrict(req, res) {
-    //     const { name, description } = req.body;
-    //     const image = req.file ? req.file.filename : null;
+    async getAboutUs(req, res) {
+        try {
+            const cmsContent = await CMS.findOne({ page: 'about-us' });
+            if (!cmsContent) return res.status(404).json({ message: 'Content not found' });
+            res.json(cmsContent);
+        } catch (error) {
+            res.status(500).json({ message: error.message });
+        }
+    }
 
-    //     try {
-    //         const newDistrict = new District({
-    //             name,
-    //             description,
-    //             image,
-    //         });
-    //         await newDistrict.save();
-    //         res.status(201).json({ message: 'District added successfully', district: newDistrict });
-    //     } catch (error) {
-    //         res.status(500).json({ message: 'Failed to add district', error });
-    //     }
-    // }
+    async updateAboutUs(req, res) {
+        try {
+            const { title, content } = req.body; 
+            if (!title || !content) {
+                return res.status(400).json({ message: 'Title and content are required' });
+            }
+
+            const updatedAboutUs = await CMS.findOneAndUpdate(
+                { page: 'about-us' }, 
+                { title, content, createdAt: new Date() }, 
+                { new: true, upsert: true } // Return the updated document and create one if it doesn't exist
+            );
+
+            if (updatedAboutUs) {
+                res.json({ message: 'About Us page updated successfully', data: updatedAboutUs });
+            } else {
+                res.status(404).json({ message: 'About Us page not found' });
+            }
+        } catch (error) {
+            console.error('Error updating About Us page:', error);
+            res.status(500).json({ message: 'An error occurred while updating the About Us page' });
+        }
+    }
 }
 
 module.exports = new adminController();

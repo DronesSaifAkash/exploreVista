@@ -13,14 +13,15 @@ const DestinationCard = ({ destination }) => {
         <div className="px-4 py-5 flex-auto">
           <h6 className="text-xl font-semibold">{destination.name}</h6>
           <p className="mt-2 mb-4 text-blueGray-500 h-10">
-            {destination.description}
+            {destination.description} 
+            <Link
+              to={`destinations/${destination._id}`}
+              className="text-lightBlue-500 hover:underline text-sm mx-2 p-2"
+            >
+              Load More
+            </Link>
           </p>
-          <Link
-            to={destination.detailsPageLink}
-            className="text-lightBlue-500 hover:underline"
-          >
-            Learn More
-          </Link>
+
         </div>
       </div>
     </div>

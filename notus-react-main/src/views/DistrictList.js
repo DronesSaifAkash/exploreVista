@@ -47,6 +47,7 @@ const DistrictList = () => {
             <div className="flex flex-wrap">
               {districts.map((district) => (
                 <DistrictCard
+                  _id = {district._id}
                   key={district._id}
                   name={district.name}
                   thumbnail={district.thumbnail_img}

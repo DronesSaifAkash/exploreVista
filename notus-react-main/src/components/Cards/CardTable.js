@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 // components
 
-import TableDropdown from "components/Dropdowns/TableDropdown.js";
+// import TableDropdown from "components/Dropdowns/TableDropdown.js";
 
 export default function CardTable({ color, data, title }) {
   if (!data || data.length === 0 || !title || title.length === 0) {
@@ -18,24 +18,11 @@ export default function CardTable({ color, data, title }) {
   return (
     <div
       className={
-        "relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded " +
+        "relative flex flex-col min-w-0 break-words w-full mb-6 rounded " +
         (color === "light" ? "bg-white" : "bg-lightBlue-900 text-white")
       }
     >
-      <div className="rounded-t mb-0 px-4 py-3 border-0">
-        <div className="flex flex-wrap items-center">
-          <div className="relative w-full px-4 max-w-full flex-grow flex-1 text-left">
-            <h3
-              className={
-                "font-semibold text-lg " +
-                (color === "light" ? "text-blueGray-700" : "text-white")
-              }
-            >
-              {title}
-            </h3>
-          </div>
-        </div>
-      </div>
+      
       <div className="block w-full overflow-x-auto">
         <table className="items-center w-full bg-transparent border-collapse">
           <thead>
@@ -49,9 +36,9 @@ export default function CardTable({ color, data, title }) {
               <th className="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
                 Thumbnail
               </th>
-              <th className="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+              {/* <th className="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
                 Actions
-              </th>
+              </th> */}
             </tr>
           </thead>
           <tbody>
@@ -70,9 +57,9 @@ export default function CardTable({ color, data, title }) {
                     className="w-12 h-12"
                   />
                 </td>
-                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+                {/* <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
                   <TableDropdown />
-                </td>
+                </td> */}
               </tr>
             ))}
           </tbody>

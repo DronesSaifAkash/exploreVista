@@ -1388,6 +1388,12 @@ select {
 .inline-block {
   display: inline-block;
 }
+.inset-0{
+  top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+}
 
 .flex {
   display: -webkit-flex;
@@ -1542,6 +1548,9 @@ select {
 
 .h-70-px {
   height: 70px;
+}
+.h-200-px{
+  height: 250px;
 }
 
 .h-350-px {
@@ -1845,7 +1854,8 @@ select {
 .max-h-860-px {
   max-height: 860px;
 }
-
+.max-h-full{	max-height: 100%;}
+.max-h-screen	{max-height: 100vh;}
 .max-w-full {
   max-width: 100%;
 }
@@ -1896,6 +1906,13 @@ select {
 
 .min-w-140-px {
   min-width: 140px;
+}
+
+.opacity-25 {
+  opacity: 0.25;
+}
+.hover\:opacity-85:hover{
+  opacity: 0.85;
 }
 
 .opacity-50 {
@@ -3042,3 +3059,18 @@ select {
 
 @media (min-width: 1536px) {
 }
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+.react-datepicker__input {
+  width: 100%;
+}
+
+.bg-transparent	{background-color: transparent;}
+.object-contain	{object-fit: contain;}

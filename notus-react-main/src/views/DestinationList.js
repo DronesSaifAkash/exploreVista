@@ -47,9 +47,7 @@ const DestinationList = () => {
                                         Discover West Bengal's Hidden Gems
                                     </h1>
                                     <p className="mt-4 text-lg text-blueGray-200">
-                                        Embark on a journey through the diverse landscapes, rich
-                                        heritage, and vibrant culture of West Bengal. Plan your
-                                        adventure with us and uncover the beauty of every corner of
+                                        Plan your adventure with us and uncover the beauty of every corner of
                                         this enchanting state.
                                     </p>
                                 </div>

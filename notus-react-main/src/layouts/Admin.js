@@ -11,9 +11,6 @@ import FooterAdmin from "components/Footers/FooterAdmin.js";
 // views
 
 import Dashboard from "views/admin/Dashboard.js";
-import Maps from "views/admin/Maps.js";
-import Settings from "views/admin/Settings.js";
-import Tables from "views/admin/Tables.js";
 import AdminDistrict from "views/admin/AdminDistrict";
 import AdminDestinations from "views/admin/AdminDestinations";
 import AdminAddDestinationForm from "views/admin/AdminAddDestinationForm";
@@ -23,6 +20,7 @@ import AdminContactDetail from "views/admin/AdminContactDetail";
 import AdminTourPackageList from "views/admin/AdminTourPackageList";
 import AdminTourPackageForm from "views/admin/AdminTourPackageForm";
 import AdminEditTourPackage from "views/admin/AdminEditTourPackage";
+import EditAboutUs from "views/admin/EditAboutUs";
 
 export default function Admin() {
   return (
@@ -35,24 +33,22 @@ export default function Admin() {
         <div className="px-4 md:px-10 mx-auto w-full -m-24">
           <Switch>
             <Route path="/admin/dashboard" exact component={Dashboard} />
-            <Route path="/admin/maps" exact component={Maps} />
-            <Route path="/admin/settings" exact component={Settings} />
-            <Route path="/admin/tables" exact component={Tables} />
-            
             <Route path="/admin/districts" component={AdminDistrict} />
-            
+
             <Route path="/admin/destinations" component={AdminDestinations} />
             <Route path="/admin/add-destination" component={AdminAddDestinationForm} />
             <Route path="/admin/edit-destination/:id" component={AdminEditDestinationForm} />
-            
+
             <Route path="/admin/contacts-list" component={AdminContactList} />
             <Route path="/admin/contacts/:id" exact component={AdminContactDetail} />
-            
+
             <Route path="/admin/tour-packages" exact component={AdminTourPackageList} />
             <Route path="/admin/add-tour-packages" exact component={AdminTourPackageForm} />
             <Route path="/admin/edit-tour-packages/:id" exact component={AdminEditTourPackage} />
-            
-            
+
+            <Route path="/admin/about-us" exact component={EditAboutUs} />
+
+
             <Redirect from="/admin" to="/admin/dashboard" />
           </Switch>
           <FooterAdmin />

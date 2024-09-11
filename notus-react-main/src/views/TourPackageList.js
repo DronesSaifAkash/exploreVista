@@ -12,6 +12,9 @@ const TourPackageList = () => {
     const fetchTourPackages = async () => {
       try {
         const response = await axios.get("/api/tour-packages");
+        if(response.status === 500){
+          window.location.href='/auth/login'
+        }
         setTourPackages(response.data);
       } catch (error) {
         console.error("Error fetching tour packages:", error);
@@ -25,8 +28,8 @@ const TourPackageList = () => {
     <>
       <Navbar />
       <main>
-      <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
-      <div
+        <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
+          <div
             className="absolute top-0 w-full h-full bg-center bg-cover" style={{ backgroundImage: "url('http://localhost:5000/images/banner/beach1.jpg')" }}
           >
             <span
