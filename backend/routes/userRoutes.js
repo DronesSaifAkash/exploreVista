@@ -18,8 +18,11 @@ router.get('/contacts/:id',  userController.getContactById);
 router.post('/contacts/:id/reply',  userController.replyToContact);
 
 router.get('/tour-packages/:id',  userController.getTourPackageById);
+
 router.post('/book', userController.createBooking);
 router.get('/booking-packages/:userId', userController.getUserBookings);
+router.get('/bookings/:id', userController.getBookingsDetails)
 
+router.get('/stats/:id', userController.stats );
 
 module.exports = router;

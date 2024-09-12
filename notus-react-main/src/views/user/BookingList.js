@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import DataTable from 'react-data-table-component';
-// import { useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 const BookingList = () => {
     const [bookings, setBookings] = useState([]);
@@ -9,7 +9,7 @@ const BookingList = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [searchText, setSearchText] = useState('');
-    // const history = useHistory();
+    const history = useHistory();
 
     useEffect(() => {
         const fetchBookings = async () => {
@@ -84,6 +84,10 @@ const BookingList = () => {
             name: 'Total Price',
             selector: row => `₹ ${row.totalPrice}`,
             sortable: true,
+        },{
+            name: 'Status',
+            selector: row => `${row.status.charAt(0).toUpperCase() + row.status.slice(1).toLowerCase()}`,
+            sortable: true
         },
         {
             name: 'Actions',
@@ -102,8 +106,8 @@ const BookingList = () => {
     ];
 
     const handleView = (id) => {
-        // history.push(`/user/bookings/${id}`);
-        alert(id)
+        history.push(`/user/bookings/${id}`);
+        // alert(id)
     };
 
     return (

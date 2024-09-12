@@ -6,6 +6,8 @@ const fs = require('fs');
 const Contact = require('../models/contact');
 const TourPackage = require('../models/tourPackageSchema');
 const CMS = require('../models/cms');
+const Booking = require('../models/Booking.js');
+const User = require('../models/user.js')
 
 class adminController {
 
@@ -264,14 +266,14 @@ class adminController {
 
     async updateAboutUs(req, res) {
         try {
-            const { title, content } = req.body; 
+            const { title, content } = req.body;
             if (!title || !content) {
                 return res.status(400).json({ message: 'Title and content are required' });
             }
 
             const updatedAboutUs = await CMS.findOneAndUpdate(
-                { page: 'about-us' }, 
-                { title, content, createdAt: new Date() }, 
+                { page: 'about-us' },
+                { title, content, createdAt: new Date() },
                 { new: true, upsert: true } // Return the updated document and create one if it doesn't exist
             );
 
@@ -284,6 +286,88 @@ class adminController {
             console.error('Error updating About Us page:', error);
             res.status(500).json({ message: 'An error occurred while updating the About Us page' });
         }
+    }
+
+    async getBookingsList(req, res) {
+        try {
+            // Fetch all bookings
+            const bookings = await Booking.find({})
+                .populate({
+                    path: 'userId',
+                    select: 'name' // Adjust fields as needed
+                })
+                .populate({
+                    path: 'tourPackageId',
+                    select: 'name' // Adjust fields as needed
+                });
+            return res.status(200).json(bookings);
+
+        } catch (err) {
+            console.error('Error fetching bookings list:', err);
+            return res.status(500).json({ error: 'Internal server error' });
+        }
+    }
+
+    async getBookingDetailsById(req, res) {
+        try {
+            // Fetch the booking by ID
+            const booking = await Booking.findById(req.params.id)
+                .populate('tourPackageId', 'name price')
+                .populate({
+                    path: 'userId',
+                    select: 'name' // Adjust fields as needed
+                }); // Adjust the fields you need from the tour package
+            if (!booking) {
+                return res.status(404).json({ message: 'Booking not found' });
+            }
+            res.json(booking);
+        } catch (error) {
+            console.error(error);
+            res.status(500).json({ message: 'Server error' });
+        }
+    }
+
+    async updateBookingStatus(req, res) {
+        const { id } = req.params; // Get booking ID from params
+        const { status } = req.body; // Get new status from the request body
+
+        try {
+            // Find the booking by ID
+            const booking = await Booking.findById(id);
+
+            if (!booking) {
+                return res.status(404).json({ message: 'Booking not found' });
+            }
+
+            // Update the status of the booking
+            booking.status = status;
+            await booking.save();
+
+            res.status(200).json({ message: 'Booking status updated successfully', booking });
+        } catch (error) {
+            console.error('Error updating booking status:', error);
+            res.status(500).json({ message: 'Server error' });
+        }
+
+    }
+
+    async stats(req, res) {
+        try {
+            const totalBookings = await Booking.countDocuments();
+            const totalDestinations = await Destination.countDocuments();
+            const totalUsers = await User.countDocuments({ type: { $ne: 'admin' } });
+            const totalTourPackages = await TourPackage.countDocuments();
+
+            res.json({
+                totalBookings,
+                totalDestinations,
+                totalUsers,
+                totalTourPackages,
+            });
+        } catch (error) {
+            res.status(500).json({ error: 'Error fetching stats' });
+        }
+
     }
 }
 

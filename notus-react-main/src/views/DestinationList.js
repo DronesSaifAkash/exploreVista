@@ -1,25 +1,50 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React, { useEffect, useState, useCallback } from "react";
 import Navbar from "../components/Navbars/IndexNavbar";
 import DestinationCard from "../components/Cards/DestinationCard"; // Import the DestinationCard component
 import Footer from "components/Footers/Footer";
+import DistrictFilter from "../components/Cards/DistrictFilter";
 
 const DestinationList = () => {
     const [destinations, setDestinations] = useState([]);
+    const [district, setDistrict] = useState("");
+    const [loading, setLoading] = useState(true);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [totalPages, setTotalPages] = useState(1);
+    
+    const fetchDestinations = useCallback(async (page = 1) => {
+        setLoading(true);
+        try {
+            const response = await fetch(`/api/destinations?page=${page}&district=${district}`);
+            const data = await response.json();
+            setDestinations(data.destinations);
+            setTotalPages(data.totalPages);
+            setLoading(false);
+        } catch (error) {
+            console.error("Error fetching destinations:", error);
+            setLoading(false);
+        }
+    }, [district]);
 
     useEffect(() => {
-        // Fetch destinations from the backend
-        const fetchDestinations = async () => {
-            try {
-                const response = await axios.get("/api/destinations");
-                setDestinations(response.data);
-            } catch (error) {
-                console.error("Error fetching destinations:", error);
-            }
-        };
+        fetchDestinations(currentPage);  // Fetch data when currentPage or district changes
+    }, [currentPage, district, fetchDestinations]);
 
-        fetchDestinations();
-    }, []);
+    const handleDistrictSelect = (selectedDistrict) => {
+        setDistrict(selectedDistrict);
+        setCurrentPage(1);  // Reset to first page when filtering
+    };
+
+    const handlePageChange = (page) => {
+        setCurrentPage(page);
+    };
+
+    if (loading) {
+        // return <div>Loading...</div>;
+    }
+
+    const handleClear = () => {
+        window.location.reload(); 
+    };
 
     return (
         <>
@@ -43,12 +68,16 @@ const DestinationList = () => {
                         <div className="items-center flex flex-wrap">
                             <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                                 <div className="pr-12">
-                                    <h1 className="text-white font-semibold text-5xl">
+                                    <h2 className="text-white font-semibold text-5xl">
                                         Discover West Bengal's Hidden Gems
-                                    </h1>
-                                    <p className="mt-4 text-lg text-blueGray-200">
-                                        Plan your adventure with us and uncover the beauty of every corner of
-                                        this enchanting state.
+                                    </h2>
+                                    <p className="mt-4 text-lg text-blueGray-200 flex justify-between items-center mx-auto my-auto">
+                                        Filter &nbsp;
+                                        <DistrictFilter onSelect={handleDistrictSelect} />
+                                        <button onClick={handleClear} className="text-blue-500 no-underline hover:underline flex items-center">
+                                            <i className="fas fa-times-circle mr-2"></i>
+                                            Clear
+                                        </button>
                                     </p>
                                 </div>
                             </div>
@@ -82,6 +111,23 @@ const DestinationList = () => {
                             {destinations.map((destination) => (
                                 <DestinationCard key={destination._id} destination={destination} />
                             ))}
+                        </div>
+                        <div className="flex justify-center mt-6">
+                            <button
+                                disabled={currentPage === 1}
+                                onClick={() => handlePageChange(currentPage - 1)}
+                                className="px-4 py-2 mx-2 border rounded"
+                            >
+                                Previous
+                            </button>
+                            <span>Page {currentPage} of {totalPages}</span>
+                            <button
+                                disabled={currentPage === totalPages}
+                                onClick={() => handlePageChange(currentPage + 1)}
+                                className="px-4 py-2 mx-2 border rounded"
+                            >
+                                Next
+                            </button>
                         </div>
                     </div>
                 </section>

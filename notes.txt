@@ -195,12 +195,16 @@ src/
 ├── App.js
 └── index.js
 
+
+
+
+
 Flow:
 * User/Visitors can see tour packages // done
-* User/Visitors can see tour packages based on a district 
-* User/Visitors can see tour packages based on specific locations ( destination )
-* In destination details page, show some important destination details, user can select a tour package based on it 
-* In District details page, all touring spots regarding that district shows and user can select atour package based on it.
+* User/Visitors can see tour packages based on a district // N/A
+* User/Visitors can see tour packages based on specific locations ( destination ) // N/A
+* In destination details page, show some important destination details.  
+* In District details page, all touring spots regarding that district shows. // done
 * tour packages based on members // done
 * In portal, Contact Us // done 
 * In portal, Top Feedbacks // done
@@ -208,9 +212,9 @@ Flow:
 * In portal, About us // done 
 
 * In User dashboard.. 
-    User can see booking details
-    User can see contact us, and see previous communications
-    User can send feedback through portal
+    User can see booking details // done
+    User can see contact us, and see previous communications // done 
+    User can send feedback through portal 
     User can change profile details 
     User can update password
 
@@ -222,6 +226,10 @@ Flow:
     Admin can manage Users ( Active, Inactive )
     Admin can change profile details
     Admin can update password 
+
+
+
+
 
 -------------------------
 Your flow for the tour and travels website is well-organized, covering both user and admin functionalities comprehensively. Here's a quick breakdown of how you could implement this in your React project:

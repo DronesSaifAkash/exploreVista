@@ -56,16 +56,16 @@ const AdminDestinationTable = ({ destinations }) => {
             width: '200px',
         },
         {
-            name: 'Description',
-            selector: (row) => row.description,
-            sortable: true,
-            width: '200px',
-        },
-        {
             name: 'Location',
             selector: (row) => row.location,
             sortable: true,
             // width: '200px',
+        },
+        {
+            name: 'Rating',
+            selector: (row) => row.rating,
+            sortable: true,
+            width: '200px',
         },
         {
             name: 'Actions',

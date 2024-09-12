@@ -34,6 +34,12 @@ router.patch('/tour-packages/:id/availability', adminController.updateAvailabili
 router.get('/tour-packages/:id', adminController.getTourPackageById);
 router.put('/edit-tour-packages/:id', adminController.updateTourPackage);
 
+router.get('/bookings', adminController.getBookingsList);
+router.get('/booking/:id', adminController.getBookingDetailsById);
+router.put('/booking-status/:id/status', adminController.updateBookingStatus);
+
+router.get('/stats', adminController.stats );
+
 router.get('/about-us', adminController.getAboutUs);
 router.put('/update-about-us', adminController.updateAboutUs);
 module.exports = router;

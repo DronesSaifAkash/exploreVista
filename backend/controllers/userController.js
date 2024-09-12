@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken');
 const User = require('../models/user');
 const Contact = require('../models/contact');
 const Booking = require('../models/Booking');
+const Destination = require('../models/Destination');
 const TourPackage = require('../models/tourPackageSchema');
 
 class UserController {
@@ -194,6 +195,45 @@ class UserController {
             res.status(500).json({ message: 'Error fetching bookings', error });
         }
     }
+
+    async getBookingsDetails(req, res){
+        try {
+            const { id } = req.params; // Get the booking ID from the URL parameters
+    
+            // Validate the ID
+            if (!id) {
+                return res.status(400).json({ message: 'Booking ID is required' });
+            }
+    
+            // Fetch booking details from the database
+            const booking = await Booking.findById(id).populate('tourPackageId'); // Assuming `tourPackageId` is a reference field
+    
+            // If no booking found, return a 404 error
+            if (!booking) {
+                return res.status(404).json({ message: 'Booking not found' });
+            }
+    
+            // Send the booking details in the response
+            res.status(200).json(booking);
+        } catch (err) {
+            // Handle any errors
+            console.error(err);
+            res.status(500).json({ message: 'Server error' });
+        }
+    }
+
+    async stats(req, res) {
+        try {
+            const userId = req.params.id;
+            const totalBookings = await Booking.countDocuments({ userId: userId });
+    
+            res.json({ totalBookings });
+        } catch (error) {
+            console.error('Error fetching stats:', error);
+            res.status(500).json({ error: 'Error fetching stats' });
+        }
+    }
+    
     
 }
 

@@ -14,7 +14,7 @@ export default function Profile() {
   }, []);
 
   if (!profile) {
-    return <div>Loading...</div>;
+    // return <div>Loading...</div>;
   }
 
   return (

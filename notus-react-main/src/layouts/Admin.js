@@ -21,6 +21,8 @@ import AdminTourPackageList from "views/admin/AdminTourPackageList";
 import AdminTourPackageForm from "views/admin/AdminTourPackageForm";
 import AdminEditTourPackage from "views/admin/AdminEditTourPackage";
 import EditAboutUs from "views/admin/EditAboutUs";
+import AdminBookingList from "views/admin/AdminBookingList";
+import AdminBookingDetails from "views/admin/AdminBookingDetails";
 
 export default function Admin() {
   return (
@@ -45,6 +47,9 @@ export default function Admin() {
             <Route path="/admin/tour-packages" exact component={AdminTourPackageList} />
             <Route path="/admin/add-tour-packages" exact component={AdminTourPackageForm} />
             <Route path="/admin/edit-tour-packages/:id" exact component={AdminEditTourPackage} />
+
+            <Route path="/admin/booking-list" exact component={AdminBookingList} />
+            <Route path="/admin/booking/:id" exact component={AdminBookingDetails} />
 
             <Route path="/admin/about-us" exact component={EditAboutUs} />
 

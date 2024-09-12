@@ -7,6 +7,8 @@ import "assets/styles/tailwind.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import 'react-quill/dist/quill.snow.css';
+
 // layouts
 import Admin from "layouts/Admin.js";
 import Auth from "layouts/Auth.js";
@@ -17,12 +19,13 @@ import Profile from "views/Profile.js";
 import Index from "views/Index.js";
 import DistrictList from 'views/DistrictList';
 import DestinationList from "views/DestinationList";
-import PopularPlaces from 'views/PopularPlaces';
+// import PopularPlaces from 'views/PopularPlaces';
 import TourPackageList from "views/TourPackageList";
 import BookingPage from "views/BookingPage";
 import User from "layouts/User";
 import AboutUs from "views/AboutUs";
 import DistrictDetails from "views/DistrictDetails";
+import DestinationDetails from "views/DestinationDetails";
 
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
@@ -37,9 +40,14 @@ root.render(
       {/* Add routes without layouts */}
       <Route path="/districts" exact component={DistrictList} />
       <Route path="/districts/:id" exact component={DistrictDetails} />
-      <Route path="/PopularPlaces" exact component={PopularPlaces} />
+      
+      {/* <Route path="/PopularPlaces" exact component={PopularPlaces} /> */}
+      
       <Route path="/destinations" exact component={DestinationList} />
+      <Route path="/destinations/:id" exact component={DestinationDetails} />
+
       <Route path="/about-us" exact component={AboutUs} />
+
       <Route path="/tours" exact component={TourPackageList} />
       <Route path="/tour-packages/:id" exact component={BookingPage} />
       

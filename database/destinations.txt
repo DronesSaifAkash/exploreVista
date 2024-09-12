@@ -3,8 +3,8 @@ db.destinations.insertMany([
     name: "Kalimpong",
     thumbnail: "kalimpong-thumbnail.jpg",
     description: "A charming hill station with beautiful landscapes and vibrant markets.",
-    location: "Kalimpong, West Bengal",
-    rating: 4.5,
+    location: "Kalimpong",
+    rating: 4,
     detailsPageLink: "/destinations/kalimpong",
     image: "kalimpong-image.jpg"
   },
@@ -12,8 +12,8 @@ db.destinations.insertMany([
     name: "Kurseong",
     thumbnail: "kurseong-thumbnail.jpg",
     description: "Known as the 'Land of White Orchids', Kurseong offers stunning views and serene environment.",
-    location: "Kurseong, West Bengal",
-    rating: 4.6,
+    location: "Kurseong",
+    rating: 4,
     detailsPageLink: "/destinations/kurseong",
     image: "kurseong-image.jpg"
   },
@@ -21,8 +21,8 @@ db.destinations.insertMany([
     name: "Rishop",
     thumbnail: "rishop-thumbnail.jpg",
     description: "A peaceful village known for its panoramic views of the Himalayas.",
-    location: "Rishop, West Bengal",
-    rating: 4.7,
+    location: "Rishop",
+    rating: 4,
     detailsPageLink: "/destinations/rishop",
     image: "rishop-image.jpg"
   },
@@ -30,8 +30,8 @@ db.destinations.insertMany([
     name: "Lava",
     thumbnail: "lava-thumbnail.jpg",
     description: "A small hill station known for its lush green landscapes and peaceful environment.",
-    location: "Lava, West Bengal",
-    rating: 4.4,
+    location: "Lava",
+    rating: 4
     detailsPageLink: "/destinations/lava",
     image: "lava-image.jpg"
   },
@@ -39,8 +39,8 @@ db.destinations.insertMany([
     name: "Lolegaon",
     thumbnail: "lolegaon-thumbnail.jpg",
     description: "Known for its scenic beauty and beautiful sunrise views.",
-    location: "Lolegaon, West Bengal",
-    rating: 4.6,
+    location: "Lolegaon",
+    rating: 4,
     detailsPageLink: "/destinations/lolegaon",
     image: "lolegaon-image.jpg"
   },
@@ -48,8 +48,8 @@ db.destinations.insertMany([
     name: "SUTANUTI TRAILS",
     thumbnail: "sutanuti-trails-thumbnail.jpg",
     description: "Explore the historical and cultural trails of Sutanuti.",
-    location: "Sutanuti, West Bengal",
-    rating: 4.5,
+    location: "Sutanuti",
+    rating: 4,
     detailsPageLink: "/destinations/sutanuti-trails",
     image: "sutanuti-trails-image.jpg"
   },
@@ -57,8 +57,8 @@ db.destinations.insertMany([
     name: "Sundarbans",
     thumbnail: "sundarbans-thumbnail.jpg",
     description: "Famous for its mangrove forests and royal Bengal tigers.",
-    location: "Sundarbans, West Bengal",
-    rating: 4.8,
+    location: "Sundarbans",
+    rating: 4,
     detailsPageLink: "/destinations/sundarbans",
     image: "sundarbans-image.jpg"
   },
@@ -66,8 +66,8 @@ db.destinations.insertMany([
     name: "Digha",
     thumbnail: "digha-thumbnail.jpg",
     description: "A popular seaside destination known for its beaches and resorts.",
-    location: "Digha, West Bengal",
-    rating: 4.3,
+    location: "Digha",
+    rating: 4,
     detailsPageLink: "/destinations/digha",
     image: "digha-image.jpg"
   },
@@ -75,8 +75,8 @@ db.destinations.insertMany([
     name: "Mandarmani",
     thumbnail: "mandarmani-thumbnail.jpg",
     description: "A serene beach destination with a relaxed atmosphere.",
-    location: "Mandarmani, West Bengal",
-    rating: 4.4,
+    location: "Mandarmani",
+    rating: 4
     detailsPageLink: "/destinations/mandarmani",
     image: "mandarmani-image.jpg"
   },
@@ -84,8 +84,8 @@ db.destinations.insertMany([
     name: "Darjeeling",
     thumbnail: "darjeeling-thumbnail.jpg",
     description: "Known for its tea gardens, beautiful landscapes, and the Darjeeling Himalayan Railway.",
-    location: "Darjeeling, West Bengal",
-    rating: 4.9,
+    location: "Darjeeling",
+    rating: 4,
     detailsPageLink: "/destinations/darjeeling",
     image: "darjeeling-image.jpg"
   },
@@ -93,8 +93,8 @@ db.destinations.insertMany([
     name: "Dooars",
     thumbnail: "dooars-thumbnail.jpg",
     description: "A gateway to the north-eastern hills and forests.",
-    location: "Dooars, West Bengal",
-    rating: 4.7,
+    location: "Dooars",
+    rating: 4,
     detailsPageLink: "/destinations/dooars",
     image: "dooars-image.jpg"
   },
@@ -102,8 +102,8 @@ db.destinations.insertMany([
     name: "Mirik",
     thumbnail: "mirik-thumbnail.jpg",
     description: "A picturesque hill station known for its lake and gardens.",
-    location: "Mirik, West Bengal",
-    rating: 4.6,
+    location: "Mirik",
+    rating: 4,
     detailsPageLink: "/destinations/mirik",
     image: "mirik-image.jpg"
   },
@@ -111,8 +111,8 @@ db.destinations.insertMany([
     name: "Sandakphu",
     thumbnail: "sandakphu-thumbnail.jpg",
     description: "The highest point in West Bengal, offering stunning views of the Himalayas.",
-    location: "Sandakphu, West Bengal",
-    rating: 4.8,
+    location: "Sandakphu",
+    rating: 4,
     detailsPageLink: "/destinations/sandakphu",
     image: "sandakphu-image.jpg"
   },
@@ -120,8 +120,8 @@ db.destinations.insertMany([
     name: "Tajpur",
     thumbnail: "tajpur-thumbnail.jpg",
     description: "A quiet beach destination perfect for a peaceful getaway.",
-    location: "Tajpur, West Bengal",
-    rating: 4.5,
+    location: "Tajpur",
+    rating: 4,
     detailsPageLink: "/destinations/tajpur",
     image: "tajpur-image.jpg"
   },
@@ -129,8 +129,8 @@ db.destinations.insertMany([
     name: "Shankarpur",
     thumbnail: "shankarpur-thumbnail.jpg",
     description: "A serene beach town known for its calm and relaxed atmosphere.",
-    location: "Shankarpur, West Bengal",
-    rating: 4.4,
+    location: "Shankarpur",
+    rating: 4
     detailsPageLink: "/destinations/shankarpur",
     image: "shankarpur-image.jpg"
   },
@@ -138,8 +138,8 @@ db.destinations.insertMany([
     name: "Bakkhali",
     thumbnail: "bakkhali-thumbnail.jpg",
     description: "A beautiful beach destination with a laid-back vibe.",
-    location: "Bakkhali, West Bengal",
-    rating: 4.5,
+    location: "Bakkhali",
+    rating: 4,
     detailsPageLink: "/destinations/bakkhali",
     image: "bakkhali-image.jpg"
   },
@@ -147,8 +147,8 @@ db.destinations.insertMany([
     name: "Colonial Heritage",
     thumbnail: "colonial-heritage-thumbnail.jpg",
     description: "Explore the rich colonial history of the region.",
-    location: "Various locations, West Bengal",
-    rating: 4.6,
+    location: "Various locations",
+    rating: 4,
     detailsPageLink: "/destinations/colonial-heritage",
     image: "colonial-heritage-image.jpg"
   },
@@ -156,8 +156,8 @@ db.destinations.insertMany([
     name: "Jaldapara",
     thumbnail: "jaldapara-thumbnail.jpg",
     description: "A renowned national park known for its wildlife and natural beauty.",
-    location: "Jaldapara, West Bengal",
-    rating: 4.7,
+    location: "Jaldapara",
+    rating: 4,
     detailsPageLink: "/destinations/jaldapara",
     image: "jaldapara-image.jpg"
   },
@@ -165,8 +165,8 @@ db.destinations.insertMany([
     name: "Gorumara National Park",
     thumbnail: "gorumara-national-park-thumbnail.jpg",
     description: "A beautiful national park with diverse flora and fauna.",
-    location: "Gorumara, West Bengal",
-    rating: 4.6,
+    location: "Gorumara",
+    rating: 4,
     detailsPageLink: "/destinations/gorumara-national-park",
     image: "gorumara-national-park-image.jpg"
   },
@@ -174,8 +174,8 @@ db.destinations.insertMany([
     name: "Sanctuaries",
     thumbnail: "sanctuaries-thumbnail.jpg",
     description: "Explore various wildlife sanctuaries in the region.",
-    location: "Various locations, West Bengal",
-    rating: 4.5,
+    location: "Various locations",
+    rating: 4,
     detailsPageLink: "/destinations/sanctuaries",
     image: "sanctuaries-image.jpg"
   },
@@ -183,8 +183,8 @@ db.destinations.insertMany([
     name: "Science City",
     thumbnail: "science-city-thumbnail.jpg",
     description: "A popular science museum and amusement park in Kolkata.",
-    location: "Kolkata, West Bengal",
-    rating: 4.4,
+    location: "Kolkata",
+    rating: 4
     detailsPageLink: "/destinations/science-city",
     image: "science-city-image.jpg"
   },
@@ -192,8 +192,8 @@ db.destinations.insertMany([
     name: "Victoria Memorial",
     thumbnail: "victoria-memorial-thumbnail.jpg",
     description: "An iconic monument in Kolkata dedicated to Queen Victoria.",
-    location: "Kolkata, West Bengal",
-    rating: 4.8,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/victoria-memorial",
     image: "victoria-memorial-image.jpg"
   },
@@ -201,8 +201,8 @@ db.destinations.insertMany([
     name: "Kalighat Temple",
     thumbnail: "kalighat-temple-thumbnail.jpg",
     description: "A prominent Hindu temple in Kolkata dedicated to Goddess Kali.",
-    location: "Kolkata, West Bengal",
-    rating: 4.7,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/kalighat-temple",
     image: "kalighat-temple-image.jpg"
   },
@@ -210,8 +210,8 @@ db.destinations.insertMany([
     name: "Academy Of Fine Arts",
     thumbnail: "academy-of-fine-arts-thumbnail.jpg",
     description: "A renowned art gallery and cultural institution in Kolkata.",
-    location: "Kolkata, West Bengal",
-    rating: 4.6,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/academy-of-fine-arts",
     image: "academy-of-fine-arts-image.jpg"
   },
@@ -219,8 +219,8 @@ db.destinations.insertMany([
     name: "Chinatown Kolkata",
     thumbnail: "chinatown-kolkata-thumbnail.jpg",
     description: "Experience the vibrant culture of Kolkata's Chinatown.",
-    location: "Kolkata, West Bengal",
-    rating: 4.4,
+    location: "Kolkata",
+    rating: 4
     detailsPageLink: "/destinations/chinatown-kolkata",
     image: "chinatown-kolkata-image.jpg"
   },
@@ -228,8 +228,8 @@ db.destinations.insertMany([
     name: "Zoologial Garden Alipore",
     thumbnail: "zoological-garden-alipore-thumbnail.jpg",
     description: "A popular zoo in Kolkata known for its diverse animal species.",
-    location: "Kolkata, West Bengal",
-    rating: 4.3,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/zoological-garden-alipore",
     image: "zoological-garden-alipore-image.jpg"
   },
@@ -237,8 +237,8 @@ db.destinations.insertMany([
     name: "Armenian Church",
     thumbnail: "armenian-church-thumbnail.jpg",
     description: "An historic church in Kolkata showcasing Armenian architecture.",
-    location: "Kolkata, West Bengal",
-    rating: 4.5,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/armenian-church",
     image: "armenian-church-image.jpg"
   },
@@ -246,8 +246,8 @@ db.destinations.insertMany([
     name: "Kumartuli",
     thumbnail: "kumartuli-thumbnail.jpg",
     description: "A traditional potter's quarter in Kolkata known for its craftsmanship.",
-    location: "Kolkata, West Bengal",
-    rating: 4.4,
+    location: "Kolkata",
+    rating: 4
     detailsPageLink: "/destinations/kumartuli",
     image: "kumartuli-image.jpg"
   },
@@ -255,8 +255,8 @@ db.destinations.insertMany([
     name: "Birla Planetarium",
     thumbnail: "birla-planetarium-thumbnail.jpg",
     description: "An astronomical museum in Kolkata with interactive exhibits.",
-    location: "Kolkata, West Bengal",
-    rating: 4.5,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/birla-planetarium",
     image: "birla-planetarium-image.jpg"
   },
@@ -264,8 +264,8 @@ db.destinations.insertMany([
     name: "Neora Valley National Park",
     thumbnail: "neora-valley-national-park-thumbnail.jpg",
     description: "A national park with rich biodiversity and lush green landscapes.",
-    location: "Neora Valley, West Bengal",
-    rating: 4.7,
+    location: "Neora Valley",
+    rating: 4,
     detailsPageLink: "/destinations/neora-valley-national-park",
     image: "neora-valley-national-park-image.jpg"
   },
@@ -273,8 +273,8 @@ db.destinations.insertMany([
     name: "Singalila National Park",
     thumbnail: "singalila-national-park-thumbnail.jpg",
     description: "A high-altitude park offering panoramic views of the Himalayas.",
-    location: "Singalila, West Bengal",
-    rating: 4.8,
+    location: "Singalila",
+    rating: 4,
     detailsPageLink: "/destinations/singalila-national-park",
     image: "singalila-national-park-image.jpg"
   },
@@ -282,8 +282,8 @@ db.destinations.insertMany([
     name: "Jaldapara National Park",
     thumbnail: "jaldapara-national-park-thumbnail.jpg",
     description: "A national park known for its elephant population and diverse wildlife.",
-    location: "Jaldapara, West Bengal",
-    rating: 4.6,
+    location: "Jaldapara",
+    rating: 4,
     detailsPageLink: "/destinations/jaldapara-national-park",
     image: "jaldapara-national-park-image.jpg"
   },
@@ -291,8 +291,8 @@ db.destinations.insertMany([
     name: "Chapramari Wildlife Sanctuary",
     thumbnail: "chapramari-wildlife-sanctuary-thumbnail.jpg",
     description: "A sanctuary with a variety of wildlife and natural beauty.",
-    location: "Chapramari, West Bengal",
-    rating: 4.5,
+    location: "Chapramari",
+    rating: 4,
     detailsPageLink: "/destinations/chapramari-wildlife-sanctuary",
     image: "chapramari-wildlife-sanctuary-image.jpg"
   },
@@ -300,8 +300,8 @@ db.destinations.insertMany([
     name: "Mahananda Wildlife Sanctuary",
     thumbnail: "mahananda-wildlife-sanctuary-thumbnail.jpg",
     description: "A sanctuary with diverse flora and fauna, offering scenic beauty.",
-    location: "Mahananda, West Bengal",
-    rating: 4.6,
+    location: "Mahananda",
+    rating: 4,
     detailsPageLink: "/destinations/mahananda-wildlife-sanctuary",
     image: "mahananda-wildlife-sanctuary-image.jpg"
   },
@@ -309,8 +309,8 @@ db.destinations.insertMany([
     name: "Himalayan Mountaineering Institute",
     thumbnail: "himalayan-mountaineering-institute-thumbnail.jpg",
     description: "An institute dedicated to mountaineering and adventure sports.",
-    location: "Darjeeling, West Bengal",
-    rating: 4.7,
+    location: "Darjeeling",
+    rating: 4,
     detailsPageLink: "/destinations/himalayan-mountaineering-institute",
     image: "himalayan-mountaineering-institute-image.jpg"
   },
@@ -318,224 +318,224 @@ db.destinations.insertMany([
     name: "Jorpokhri Wildlife Sanctuary",
     thumbnail: "jorpokhri-wildlife-sanctuary-thumbnail.jpg",
     description: "A sanctuary known for its beautiful lakes and wildlife.",
-    location: "Jorpokhri, West Bengal",
-    rating: 4.5,
+    location: "Jorpokhri",
+    rating: 4,
     detailsPageLink: "/destinations/jorpokhri-wildlife-sanctuary",
     image: "jorpokhri-wildlife-sanctuary-image.jpg"
   },
   {
-    name: "Kapil Muni Ashram, Gangasagar",
+    name: "Kapil Muni Ashram, Gangasagar", // done 
     thumbnail: "kapil-muni-ashram-thumbnail.jpg",
     description: "A prominent pilgrimage site dedicated to Kapil Muni.",
-    location: "Gangasagar, West Bengal",
-    rating: 4.4,
+    location: "Gangasagar",
+    rating: 4
     detailsPageLink: "/destinations/kapil-muni-ashram",
     image: "kapil-muni-ashram-image.jpg"
   },
   {
-    name: "Belur Math",
+    name: "Belur Math", // done 
     thumbnail: "belur-math-thumbnail.jpg",
     description: "The headquarters of the Ramakrishna Order with beautiful architecture.",
-    location: "Belur, West Bengal",
-    rating: 4.7,
+    location: "Belur",
+    rating: 4,
     detailsPageLink: "/destinations/belur-math",
     image: "belur-math-image.jpg"
   },
   {
-    name: "Dakshineswar",
+    name: "Dakshineswar", // done 
     thumbnail: "dakshineswar-thumbnail.jpg",
     description: "A famous temple complex on the banks of the Hooghly River.",
-    location: "Dakshineswar, West Bengal",
-    rating: 4.6,
+    location: "Dakshineswar",
+    rating: 4,
     detailsPageLink: "/destinations/dakshineswar",
     image: "dakshineswar-image.jpg"
   },
   {
-    name: "Tarapith",
+    name: "Tarapith", // done
     thumbnail: "tarapith-thumbnail.jpg",
     description: "A sacred town known for its Kali temple and spiritual significance.",
-    location: "Tarapith, West Bengal",
-    rating: 4.5,
+    location: "Tarapith",
+    rating: 4,
     detailsPageLink: "/destinations/tarapith",
     image: "tarapith-image.jpg"
   },
   {
-    name: "Kalighat",
+    name: "Kalighat", // done 
     thumbnail: "kalighat-thumbnail.jpg",
     description: "A prominent temple in Kolkata dedicated to Goddess Kali.",
-    location: "Kolkata, West Bengal",
-    rating: 4.7,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/kalighat",
     image: "kalighat-image.jpg"
   },
   {
-    name: "Tarakeshwar",
+    name: "Tarakeshwar", //done 
     thumbnail: "tarakeshwar-thumbnail.jpg",
     description: "A revered temple town known for its Shiva temple.",
-    location: "Tarakeshwar, West Bengal",
-    rating: 4.6,
+    location: "Tarakeshwar",
+    rating: 4,
     detailsPageLink: "/destinations/tarakeshwar",
     image: "tarakeshwar-image.jpg"
   },
   {
-    name: "ISKCON Mayapur",
+    name: "ISKCON Mayapur", //done 
     thumbnail: "iskcon-mayapur-thumbnail.jpg",
     description: "A major spiritual center for the International Society for Krishna Consciousness.",
-    location: "Mayapur, West Bengal",
-    rating: 4.8,
+    location: "Mayapur",
+    rating: 4,
     detailsPageLink: "/destinations/iskcon-mayapur",
     image: "iskcon-mayapur-image.jpg"
   },
   {
-    name: "Nakhoda Masjid",
+    name: "Nakhoda Masjid", // done 
     thumbnail: "nakhoda-masjid-thumbnail.jpg",
     description: "One of the largest mosques in Kolkata with stunning architecture.",
-    location: "Kolkata, West Bengal",
-    rating: 4.5,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/nakhoda-masjid",
     image: "nakhoda-masjid-image.jpg"
   },
   {
-    name: "Furfura Sharif",
+    name: "Furfura Sharif", // done 
     thumbnail: "furfura-sharif-thumbnail.jpg",
     description: "A significant Sufi shrine in the region known for its spiritual importance.",
-    location: "Furfura, West Bengal",
-    rating: 4.6,
+    location: "Furfura",
+    rating: 4,
     detailsPageLink: "/destinations/furfura-sharif",
     image: "furfura-sharif-image.jpg"
   },
   {
-    name: "Imambara",
+    name: "Imambara", // done 
     thumbnail: "imambara-thumbnail.jpg",
     description: "A historic monument in Murshidabad with beautiful architecture.",
-    location: "Murshidabad, West Bengal",
-    rating: 4.7,
+    location: "Murshidabad",
+    rating: 4,
     detailsPageLink: "/destinations/imambara",
     image: "imambara-image.jpg"
   },
   {
-    name: "ST. Paul's Cathedral",
+    name: "ST. Paul's Cathedral", // done 
     thumbnail: "st-pauls-cathedral-thumbnail.jpg",
     description: "An iconic cathedral in Kolkata known for its Gothic architecture.",
-    location: "Kolkata, West Bengal",
-    rating: 4.8,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/st-pauls-cathedral",
     image: "st-pauls-cathedral-image.jpg"
   },
   {
-    name: "St. Jame's Church",
+    name: "St. Jame's Church", // done 
     thumbnail: "st-james-church-thumbnail.jpg",
     description: "A historic church in Kolkata with beautiful architecture.",
-    location: "Kolkata, West Bengal",
-    rating: 4.6,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/st-james-church",
     image: "st-james-church-image.jpg"
   },
   {
-    name: "Fort William",
+    name: "Fort William", // done 
     thumbnail: "fort-william-thumbnail.jpg",
     description: "A historic fort in Kolkata with significant military history.",
-    location: "Kolkata, West Bengal",
-    rating: 4.5,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/fort-william",
     image: "fort-william-image.jpg"
   },
   {
-    name: "Maidan",
+    name: "Maidan", // done 
     thumbnail: "maidan-thumbnail.jpg",
     description: "A large urban park in Kolkata known for recreational activities.",
-    location: "Kolkata, West Bengal",
-    rating: 4.4,
+    location: "Kolkata",
+    rating: 4
     detailsPageLink: "/destinations/maidan",
     image: "maidan-image.jpg"
   },
   {
-    name: "Princep Ghat",
+    name: "Princep Ghat", // done 
     thumbnail: "princep-ghat-thumbnail.jpg",
     description: "A scenic riverside spot in Kolkata with historic significance.",
-    location: "Kolkata, West Bengal",
-    rating: 4.5,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/princep-ghat",
     image: "princep-ghat-image.jpg"
   },
   {
-    name: "Howrah Bridge",
+    name: "Howrah Bridge", // done 
     thumbnail: "howrah-bridge-thumbnail.jpg",
     description: "An iconic bridge in Kolkata known for its engineering marvel.",
-    location: "Kolkata, West Bengal",
-    rating: 4.6,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/howrah-bridge",
     image: "howrah-bridge-image.jpg"
   },
   {
-    name: "Alambazar",
+    name: "Alambazar", // done 
     thumbnail: "alambazar-thumbnail.jpg",
     description: "A locality in Kolkata known for its local attractions and culture.",
-    location: "Kolkata, West Bengal",
-    rating: 4.4,
+    location: "Kolkata",
+    rating: 4
     detailsPageLink: "/destinations/alambazar",
     image: "alambazar-image.jpg"
   },
   {
-    name: "Dum Dum",
+    name: "Dum Dum", // done 
     thumbnail: "dum-dum-thumbnail.jpg",
     description: "A locality in Kolkata known for its historical significance.",
-    location: "Kolkata, West Bengal",
-    rating: 4.3,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/dum-dum",
     image: "dum-dum-image.jpg"
   },
   {
-    name: "Tollygunge",
+    name: "Tollygunge", // done 
     thumbnail: "tollygunge-thumbnail.jpg",
     description: "A prominent area in Kolkata known for its cultural landmarks.",
-    location: "Kolkata, West Bengal",
-    rating: 4.5,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/tollygunge",
     image: "tollygunge-image.jpg"
   },
   {
-    name: "Bally",
+    name: "Bally", //done 
     thumbnail: "bally-thumbnail.jpg",
     description: "A historical locality in Howrah known for its cultural heritage.",
-    location: "Howrah, West Bengal",
-    rating: 4.4,
+    location: "Howrah",
+    rating: 4
     detailsPageLink: "/destinations/bally",
     image: "bally-image.jpg"
   },
   {
-    name: "Baranagar",
+    name: "Baranagar", //done
     thumbnail: "baranagar-thumbnail.jpg",
     description: "A historic locality in Kolkata with notable attractions.",
-    location: "Kolkata, West Bengal",
-    rating: 4.3,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/baranagar",
     image: "baranagar-image.jpg"
   },
   {
-    name: "Rishra",
+    name: "Rishra", // done
     thumbnail: "rishra-thumbnail.jpg",
     description: "A town in Hooghly known for its cultural and historical significance.",
-    location: "Hooghly, West Bengal",
-    rating: 4.5,
+    location: "Hooghly",
+    rating: 4,
     detailsPageLink: "/destinations/rishra",
     image: "rishra-image.jpg"
   },
   {
-    name: "Serampore",
+    name: "Serampore", //done
     thumbnail: "serampore-thumbnail.jpg",
     description: "A historic town in Hooghly with colonial-era landmarks.",
-    location: "Hooghly, West Bengal",
-    rating: 4.6,
+    location: "Hooghly",
+    rating: 4,
     detailsPageLink: "/destinations/serampore",
     image: "serampore-image.jpg"
   },
   {
-    name: "Bauria",
+    name: "Bauria", // done
     thumbnail: "bauria-thumbnail.jpg",
     description: "A town in Howrah with local cultural attractions.",
-    location: "Howrah, West Bengal",
-    rating: 4.4,
+    location: "Howrah",
+    rating: 4,
     detailsPageLink: "/destinations/bauria",
     image: "bauria-image.jpg"
   },
@@ -543,8 +543,8 @@ db.destinations.insertMany([
     name: "Kolkata Dockyard", //done
     thumbnail: "kolkata-dockyard-thumbnail.jpg",
     description: "A historic dockyard in Kolkata with maritime significance.",
-    location: "Kolkata, West Bengal",
-    rating: 4.5,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/kolkata-dockyard",
     image: "kolkata-dockyard-image.jpg"
   },
@@ -552,8 +552,8 @@ db.destinations.insertMany([
     name: "Bagbazaar", //done
     thumbnail: "bagbazaar-thumbnail.jpg",
     description: "A locality in Kolkata known for its historical landmarks.",
-    location: "Kolkata, West Bengal",
-    rating: 4.4,
+    location: "Kolkata",
+    rating: 4
     detailsPageLink: "/destinations/bagbazaar",
     image: "bagbazaar-image.jpg"
   },
@@ -561,8 +561,8 @@ db.destinations.insertMany([
     name: "Ballygunge", // done
     thumbnail: "ballygunge-thumbnail.jpg",
     description: "A prominent locality in Kolkata known for its upscale residential areas.",
-    location: "Kolkata, West Bengal",
-    rating: 4.6,
+    location: "Kolkata",
+    rating: 4,
     detailsPageLink: "/destinations/ballygunge",
     image: "ballygunge-image.jpg"
   }

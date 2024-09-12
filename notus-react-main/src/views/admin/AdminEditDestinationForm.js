@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import ReactQuill from 'react-quill';
 import { useHistory, useParams } from 'react-router-dom';
 
 const AdminEditDestinationForm = () => {
@@ -12,6 +13,10 @@ const AdminEditDestinationForm = () => {
   const [currentImage, setCurrentImage] = useState(''); // To display current image
   const history = useHistory();
 
+  const handleContentChange = (value) => {
+    setDescription(value);  // Rich text content in HTML format
+  };
+
   useEffect(() => {
     // Fetch existing destination data
     const fetchDestination = async () => {
@@ -23,7 +28,7 @@ const AdminEditDestinationForm = () => {
         });
         const data = response.data;
         setName(data.name);
-        setDescription(data.description);
+        handleContentChange(data.description);
         setLocation(data.location);
         setRating(data.rating);
         setCurrentImage(data.image); // Set the current image URL
@@ -55,7 +60,7 @@ const AdminEditDestinationForm = () => {
           Authorization: `Bearer ${localStorage.getItem('token')}`
         },
       });
-      if(response.status===500){
+      if (response.status === 500) {
         window.location.href = '/auth/login';
       }
       if (response.status === 200) {
@@ -94,17 +99,6 @@ const AdminEditDestinationForm = () => {
               />
             </div>
             <div className="w-full lg:w-6/12 px-4 mb-3">
-              <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2" htmlFor="description">Description</label>
-              <textarea
-                id="description"
-                className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                value={description}
-                onChange={(e) => setDescription(e.target.value)}
-                rows="4"
-                required
-              />
-            </div>
-            <div className="w-full lg:w-6/12 px-4 mb-3">
               <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2" htmlFor="location">Location</label>
               <input
                 id="location"
@@ -115,6 +109,28 @@ const AdminEditDestinationForm = () => {
                 required
               />
             </div>
+            <div className="w-full lg:w-10/12 px-4 mb-3">
+              <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2" htmlFor="description">Description</label>
+              <ReactQuill
+                id="description"
+                value={description}
+                onChange={handleContentChange}
+                theme="snow"
+                placeholder="Write your content here..."
+              />
+            </div>
+
+
+            <div className="w-full lg:w-6/12 px-4 mb-3">
+              <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2" htmlFor="image">Image</label>
+              <input
+                id="image"
+                type="file"
+                className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                onChange={(e) => setImage(e.target.files[0])}
+              />
+            </div>
+            
             <div className="w-full lg:w-6/12 px-4 mb-3">
               <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2" htmlFor="rating">Rating</label>
               <input
@@ -126,19 +142,13 @@ const AdminEditDestinationForm = () => {
                 required min="1"
               />
             </div>
-            <div className="w-full lg:w-12/12 px-4 mb-3">
-              <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2" htmlFor="image">Image</label>
+            <div className='w-full lg:w-6/12 px-4 mb-3'>
+            <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2" htmlFor="image">Current Image</label>
               {currentImage && (
                 <div className="mb-3">
                   <img src={`http://localhost:5000/images/destinations/${currentImage}`} alt="Current" className="w-20 h-95-px object-cover" />
                 </div>
               )}
-              <input
-                id="image"
-                type="file"
-                className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                onChange={(e) => setImage(e.target.files[0])}
-              />
             </div>
           </div>
           <hr className="mt-6 border-b-1 border-blueGray-300" />

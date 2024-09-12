@@ -6,13 +6,15 @@ const DestinationsController = require('../controllers/destinationsController');
 const frontendController = require('../controllers/frontendController');
 
 
-router.get('/districts', DistrictController.listDistricts);
-router.get('/destinations', DestinationsController.getAllDestinations);
 router.post('/contact', frontendController.submitContactForm);
 router.get('/tour-packages', frontendController.getAlltourDetails);
 router.get('/about-us', frontendController.getAboutUsDetails);
-// Route to get district details by ID
-router.get("/districts/:id",frontendController.getDistrictInfo )
- 
+
+router.get('/districts', frontendController.listDistricts);
+router.get('/districtNameOnly', frontendController.districtNameOnly)
+router.get("/districts/:id",frontendController.getDistrictInfo );
+
+router.get('/destinations', frontendController.getAllDestinations);
+router.get('/destinations/:id',frontendController.getDestinationInfo );
 
 module.exports = router;

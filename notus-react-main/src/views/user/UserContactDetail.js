@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useHistory } from 'react-router-dom';
+import { useParams, useHistory, Link } from 'react-router-dom';
 import axios from 'axios';
 
 const UserContactDetail = () => {
@@ -123,6 +123,11 @@ const UserContactDetail = () => {
                                     <button type="submit" className="bg-blueGray-600 mx-auto text-white px-4 py-2 rounded">Send Message</button>
                                 </form>
                             </div>
+                        </div>
+                        <div className="p-4 text-right text-xl hover:opacity-85 ">
+                            <Link to="/user/contacts-list" title="Click to Back">
+                                <i className="fas fa-reply"></i>
+                            </Link>
                         </div>
                     </div>
                 </div>
